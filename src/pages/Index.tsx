@@ -74,6 +74,7 @@ const Index = () => {
             </div>
           </div>
           <PromotedArticles />
+          <MostAccessedArticles />
         </>
       )}
 
