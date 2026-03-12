@@ -25,7 +25,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 - 1.2.6. interação conversacional contextualizada;
 - 1.2.7. elaboração assistida de minutas.
 
-1.3. O Shield possui natureza estritamente assistiva, sendo vedada sua utilização como instrumento autônomo de tomada de decisão judicial ou administrativa.
+1.3. O ShieldJud possui natureza estritamente assistiva, sendo vedada sua utilização como instrumento autônomo de tomada de decisão judicial ou administrativa.
 
 ## 2. ADERÊNCIA REGULATÓRIA E GOVERNANÇA DE IA
 
