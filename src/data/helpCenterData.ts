@@ -44,7 +44,7 @@ export const sections: Section[] = [
     id: "analises-artefatos",
     title: "Análises e Artefatos",
     description: "Entenda os artefatos analíticos gerados automaticamente pelo sistema.",
-    icon: "BarChart3",
+    icon: "BrainCircuit",
   },
   {
     id: "chat",
