@@ -6,8 +6,8 @@ const versions: DocumentVersion[] = [
     version: "1.0",
     date: "03/03/2026",
     label: "Termo de Uso — Shield v1.0",
-    downloadUrl: "/docs/termos-de-uso-v1.0.docx",
-    fileType: "docx",
+    downloadUrl: "/docs/termos-de-uso-v1.0.pdf",
+    fileType: "pdf",
   },
 ];
 

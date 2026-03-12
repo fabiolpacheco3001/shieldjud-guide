@@ -6,8 +6,8 @@ const versions: DocumentVersion[] = [
     version: "1.0",
     date: "26/02/2026",
     label: "Aviso de Privacidade — Shield v1.0",
-    downloadUrl: "/docs/aviso-de-privacidade-v1.0.docx",
-    fileType: "docx",
+    downloadUrl: "/docs/aviso-de-privacidade-v1.0.pdf",
+    fileType: "pdf",
   },
 ];
 
