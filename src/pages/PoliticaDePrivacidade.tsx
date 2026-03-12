@@ -13,9 +13,9 @@ const versions: DocumentVersion[] = [
 
 const content = `## 1. OBJETIVO
 
-1.1. O presente Aviso de Privacidade tem por finalidade demonstrar o compromisso da Softplan Planejamento e Sistemas S.A. ("Softplan"), na qualidade de Controladora de Dados Pessoais, com a privacidade e a proteção dos dados pessoais tratados no contexto da utilização do Shield — IA Jurídica para Análise Processual ("Plataforma").
+1.1. O presente Aviso de Privacidade tem por finalidade demonstrar o compromisso da Softplan Planejamento e Sistemas S.A. ("Softplan"), na qualidade de Controladora de Dados Pessoais, com a privacidade e a proteção dos dados pessoais tratados no contexto da utilização do ShieldJud — IA Jurídica para Análise Processual ("Plataforma").
 
-1.2. O Shield é uma solução de Inteligência Artificial desenvolvida para apoiar magistrados, assessores e gabinetes na análise técnica inicial de processos judiciais, promovendo maior clareza, consistência e previsibilidade decisória desde o primeiro contato com o processo. O Shield realiza leitura estruturada do processo, organiza informações e oferece suporte analítico com base em três eixos principais: admissibilidade, litigância abusiva e convergência com precedentes.
+1.2. O ShieldJud é uma solução de Inteligência Artificial desenvolvida para apoiar magistrados, assessores e gabinetes na análise técnica inicial de processos judiciais, promovendo maior clareza, consistência e previsibilidade decisória desde o primeiro contato com o processo. O ShieldJud realiza leitura estruturada do processo, organiza informações e oferece suporte analítico com base em três eixos principais: admissibilidade, litigância abusiva e convergência com precedentes.
 
 1.3. Este Aviso de Privacidade foi elaborado em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD - Lei 13.709/18) e a Resolução CNJ n° 615/2025, observando os princípios de explicabilidade, rastreabilidade, auditabilidade e supervisão humana.
 
