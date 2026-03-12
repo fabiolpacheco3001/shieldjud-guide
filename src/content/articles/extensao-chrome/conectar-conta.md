@@ -5,11 +5,15 @@ slug: conectar-extensao-conta
 keywords: [login, autenticação, conta, extensão, conectar]
 ---
 
-Após instalar a extensão:
+## 🔗 Como conectar
+
+Após [instalar a extensão](/artigo/instalar-extensao):
 
 1. Clique no ícone do ShieldJud na barra de extensões
 2. Insira seu **e-mail e senha** cadastrados na plataforma
 3. Clique em **Conectar**
 4. A extensão ficará vinculada à sua conta
 
-Você só precisa fazer login uma vez. A sessão permanece ativa.
+> 💡 Dica: você só precisa fazer login uma vez. A sessão permanece ativa.
+
+Pronto para capturar? Veja como [capturar processos com a extensão](/artigo/captura-extensao).

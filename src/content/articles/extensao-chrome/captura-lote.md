@@ -5,6 +5,8 @@ slug: captura-em-lote
 keywords: [lote, múltiplos, vários processos, batch]
 ---
 
+## 📦 Captura em lote
+
 A captura em lote permite enviar múltiplos processos de uma vez:
 
 1. Na listagem do portal judicial, selecione os processos desejados
@@ -13,4 +15,4 @@ A captura em lote permite enviar múltiplos processos de uma vez:
 4. Confirme os processos selecionados
 5. Acompanhe o progresso na plataforma
 
-**Nota**: A captura em lote está disponível em planos específicos.
+> ⚠️ Atenção: a captura em lote está disponível em [planos específicos](/artigo/comparacao-planos). Verifique se o seu plano inclui esse recurso.
