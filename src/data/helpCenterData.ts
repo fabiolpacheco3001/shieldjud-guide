@@ -68,7 +68,7 @@ export const sections: Section[] = [
     id: "problemas",
     title: "Problemas Comuns",
     description: "Soluções para dúvidas frequentes e problemas técnicos.",
-    icon: "HelpCircle",
+    icon: "CircleAlert",
   },
 ];
 
