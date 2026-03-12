@@ -65,7 +65,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 4. SUPERVISÃO HUMANA OBRIGATÓRIA
 
-4.1. Toda utilização do Shield deve observar supervisão humana contínua.
+4.1. Toda utilização do ShieldJud deve observar supervisão humana contínua.
 
 4.2. O usuário compromete-se a:
 
