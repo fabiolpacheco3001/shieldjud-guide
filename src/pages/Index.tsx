@@ -5,7 +5,8 @@ import SectionCard from "@/components/SectionCard";
 import PromotedArticles from "@/components/PromotedArticles";
 import HelpCenterHeader from "@/components/HelpCenterHeader";
 import HelpCenterFooter from "@/components/HelpCenterFooter";
-import { sections, getAllArticles } from "@/data/helpCenterData";
+import { sections } from "@/data/helpCenterData";
+import { searchArticles } from "@/lib/articleLoader";
 import { ArrowRight } from "lucide-react";
 
 const Index = () => {
@@ -13,13 +14,7 @@ const Index = () => {
   const navigate = useNavigate();
 
   const searchResults = useMemo(() => {
-    if (!searchQuery.trim()) return [];
-    const q = searchQuery.toLowerCase();
-    return getAllArticles().filter(
-      (a) =>
-        a.title.toLowerCase().includes(q) ||
-        a.content.toLowerCase().includes(q)
-    );
+    return searchArticles(searchQuery);
   }, [searchQuery]);
 
   const showSearch = searchQuery.trim().length > 0;
@@ -38,7 +33,7 @@ const Index = () => {
             <p className="text-muted-foreground">Nenhum artigo encontrado. Tente outros termos.</p>
           ) : (
             <div className="flex flex-col gap-3">
-              {searchResults.map((article) => (
+              {searchResults.map(({ article, matchType }) => (
                 <button
                   key={article.slug}
                   onClick={() => navigate(`/artigo/${article.slug}`)}
@@ -46,9 +41,21 @@ const Index = () => {
                 >
                   <div>
                     <p className="font-medium text-foreground">{article.title}</p>
-                    <p className="text-xs text-muted-foreground mt-1 capitalize">
-                      {article.section.replace(/-/g, " ")}
-                    </p>
+                    <div className="flex items-center gap-2 mt-1">
+                      <span className="text-xs text-muted-foreground capitalize">
+                        {article.section.replace(/-/g, " ")}
+                      </span>
+                      {matchType === "title" && (
+                        <span className="text-xs bg-secondary text-secondary-foreground px-2 py-0.5 rounded-full">
+                          título
+                        </span>
+                      )}
+                      {matchType === "keyword" && (
+                        <span className="text-xs bg-secondary text-secondary-foreground px-2 py-0.5 rounded-full">
+                          palavra-chave
+                        </span>
+                      )}
+                    </div>
                   </div>
                   <ArrowRight size={16} className="text-muted-foreground group-hover:text-secondary-foreground flex-shrink-0" />
                 </button>

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { icons } from "lucide-react";
 import type { Section } from "@/data/helpCenterData";
+import { getArticlesBySection } from "@/lib/articleLoader";
 
 interface SectionCardProps {
   section: Section;
@@ -10,6 +11,7 @@ interface SectionCardProps {
 const SectionCard = ({ section, index }: SectionCardProps) => {
   const navigate = useNavigate();
   const IconComponent = icons[section.icon as keyof typeof icons];
+  const articleCount = getArticlesBySection(section.id).length;
 
   return (
     <div
@@ -29,7 +31,7 @@ const SectionCard = ({ section, index }: SectionCardProps) => {
         {section.description}
       </p>
       <span className="mt-3 text-xs font-medium text-secondary-foreground">
-        {section.articles.length} {section.articles.length === 1 ? "artigo" : "artigos"}
+        {articleCount} {articleCount === 1 ? "artigo" : "artigos"}
       </span>
     </div>
   );
