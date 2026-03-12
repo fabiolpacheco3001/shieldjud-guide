@@ -14,9 +14,11 @@ Ela **não substitui a análise jurídica humana** e **não realiza julgamento d
 
 O relatório é gerado automaticamente após o processamento do processo e permanece disponível para **consulta, exportação e compartilhamento**.
 
+> ⚠️ Atenção: o relatório possui caráter assistivo e não substitui a análise jurídica humana.
+
 ---
 
-# Metodologia da análise
+## 🔬 Metodologia da análise
 
 A análise de admissibilidade é realizada a partir de um conjunto de **critérios formais aplicados à petição inicial e aos documentos anexados**.
 
@@ -34,15 +36,15 @@ O sistema analisa apenas:
 - **petição inicial**
 - **documentos anexados enviados pelo usuário**
 
-Isso significa que a análise **não depende de dados externos**, reduzindo riscos de inferências indevidas e garantindo maior controle sobre a origem das informações analisadas.
+> 💡 Dica: a análise não depende de dados externos, reduzindo riscos de inferências indevidas e garantindo maior controle sobre a origem das informações.
 
 ---
 
-# Estrutura do relatório
+## 📋 Estrutura do relatório
 
 O relatório é organizado em três partes principais.
 
-## 1. Metodologia da análise
+### 1. Metodologia da análise
 
 Apresenta os fundamentos da análise automatizada e os limites da verificação realizada pelo sistema.
 
@@ -54,7 +56,7 @@ Essa seção esclarece:
 
 ---
 
-## 2. Análise detalhada por critério
+### 2. Análise detalhada por critério
 
 Cada requisito formal é avaliado individualmente.
 
@@ -80,7 +82,7 @@ Cada item traz uma **explicação textual detalhada da verificação realizada**
 
 ---
 
-## 3. Conclusão consolidada
+### 3. Conclusão consolidada
 
 Após a análise individual dos critérios, o sistema produz uma **classificação consolidada da admissibilidade**.
 
@@ -95,7 +97,7 @@ O objetivo é facilitar a compreensão rápida do resultado geral da verificaç�
 
 ---
 
-# Documentos considerados na análise
+## 📄 Documentos considerados na análise
 
 A análise considera **exclusivamente os documentos enviados pelo usuário** no momento do processamento.
 
@@ -111,7 +113,7 @@ Essa listagem garante **transparência e rastreabilidade da análise realizada**
 
 ---
 
-# Limites da verificação automatizada
+## 🚫 Limites da verificação automatizada
 
 As conclusões apresentadas possuem caráter **assistivo**.
 
@@ -126,7 +128,7 @@ As conclusões são produzidas a partir de **regras estruturadas aplicadas exclu
 
 ---
 
-# Boas práticas de interpretação do relatório
+## ✅ Boas práticas de interpretação do relatório
 
 Para melhor utilização do relatório de admissibilidade, recomenda-se:
 
@@ -137,7 +139,7 @@ Para melhor utilização do relatório de admissibilidade, recomenda-se:
 
 ---
 
-# Integridade do relatório
+## 🔒 Integridade do relatório
 
 Os relatórios técnicos do ShieldJud são **documentos imutáveis**.
 
@@ -148,3 +150,11 @@ Após gerados:
 - **não podem ser reprocessados**
 
 Isso garante **integridade, rastreabilidade e consistência das análises realizadas**.
+
+---
+
+## 📌 Próximos passos
+
+- Conheça a [Análise de convergência com precedentes](/artigo/analise-convergencia-precedentes)
+- Saiba mais sobre a [Análise de indícios de litigância abusiva](/artigo/analise-litigancia-abusiva)
+- Veja o [Relatório consolidado](/artigo/relatorio-consolidado)

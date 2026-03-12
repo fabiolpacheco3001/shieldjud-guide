@@ -13,9 +13,11 @@ O objetivo é apoiar o usuário na identificação de decisões que possam possu
 A análise não determina automaticamente a aplicação de precedentes.  
 Ela apenas apresenta elementos que podem auxiliar na avaliação da eventual **vinculação, aplicação ou distinção do precedente**.
 
+> ⚠️ Atenção: a presença de convergência com um precedente não implica automaticamente sua aplicação ao caso concreto.
+
 ---
 
-# Contexto do sistema de precedentes no Brasil
+## ⚖️ Contexto do sistema de precedentes no Brasil
 
 O sistema de justiça brasileiro, especialmente após o Código de Processo Civil de 2015, passou a operar com mecanismos estruturados de precedentes.
 
@@ -30,7 +32,7 @@ Esses mecanismos buscam promover maior **uniformidade e previsibilidade na aplic
 
 ---
 
-# Litigiosidade repetitiva no sistema de justiça
+## 📊 Litigiosidade repetitiva no sistema de justiça
 
 Relatórios institucionais do Conselho Nacional de Justiça (CNJ), especialmente o **Justiça em Números**, indicam que determinadas áreas do direito apresentam alta repetitividade temática.
 
@@ -44,19 +46,11 @@ No primeiro grau de jurisdição, grande parte do acervo se concentra em temas c
 
 A existência obrigatória dos **Núcleos de Gestão de Precedentes (NUGEP/NAC)** nos tribunais evidencia que a litigiosidade repetitiva é um fenômeno estrutural do sistema judicial brasileiro.
 
-Esses núcleos lidam diariamente com processos passíveis de:
-
-- vinculação a temas repetitivos  
-- suspensão por existência de leading case  
-- julgamento padronizado com base em entendimento consolidado  
-
 ---
 
-# Estimativa de incidência de precedentes
+## 📈 Estimativa de incidência de precedentes
 
 Não existe uma estatística nacional única que indique com precisão o percentual de ações vinculáveis a precedentes.
-
-Entretanto, a combinação de dados institucionais e experiência operacional permite estabelecer uma estimativa razoável.
 
 Em ações de consumo, é tecnicamente defensável estimar que **entre 10% e 20% dos processos apresentam convergência relevante com precedentes vinculantes ou jurisprudência consolidada**.
 
@@ -67,11 +61,11 @@ Quando corretamente identificados, processos com convergência a precedentes ten
 - demandar menos atos processuais intermediários  
 - reduzir o esforço cognitivo repetitivo nos gabinetes  
 
-Um dos principais desafios observados atualmente não é a inexistência de precedentes aplicáveis, mas **o momento tardio em que essa convergência é identificada**, muitas vezes apenas na fase de sentença.
+> 💡 Dica: um dos principais desafios não é a inexistência de precedentes aplicáveis, mas o momento tardio em que essa convergência é identificada.
 
 ---
 
-# Como o sistema realiza a análise de precedentes
+## 🔬 Como o sistema realiza a análise de precedentes
 
 A análise realizada pelo sistema considera diferentes dimensões do precedente.
 
@@ -88,30 +82,17 @@ Esses elementos permitem avaliar se existe **convergência estrutural entre o pr
 
 ---
 
-# Catálogo de precedentes analisados pelo sistema
+## 📚 Catálogo de precedentes analisados pelo sistema
 
 A análise de precedentes realizada pelo sistema se baseia em um **catálogo estruturado de precedentes selecionados**.
 
 Esse catálogo é **curado pelo time do Shield**, que realiza a seleção, estruturação e manutenção dos precedentes utilizados na análise automática.
 
-O objetivo dessa curadoria é garantir que o sistema utilize precedentes que:
-
-- possuam relevância jurídica consolidada  
-- apresentem alta incidência prática no primeiro grau  
-- possuam estrutura adequada para análise automatizada  
-
-Esse catálogo é **continuamente alimentado e atualizado** para refletir a evolução da jurisprudência e a relevância prática dos temas.
-
-O catálogo completo de precedentes analisados pelo sistema pode ser consultado aqui:
-
-**Catálogo de precedentes do Shield**  
-( inserir link do catálogo aqui )
-
-Esse mesmo catálogo também pode ser consultado **diretamente na visualização de cada relatório de precedentes**, permitindo que o usuário compreenda quais temas estão sendo considerados na análise automática.
+O catálogo é **continuamente alimentado e atualizado** para refletir a evolução da jurisprudência e a relevância prática dos temas.
 
 ---
 
-# Interpretação do resultado da análise
+## 🔎 Interpretação do resultado da análise
 
 A presença de convergência com um precedente não implica automaticamente sua aplicação ao caso concreto.
 
@@ -126,7 +107,7 @@ Essa avaliação permanece sob responsabilidade do usuário.
 
 ---
 
-# Quando um precedente pode ser relevante
+## 🧭 Quando um precedente pode ser relevante
 
 A relevância de um precedente depende da combinação de diversos fatores.
 
@@ -137,26 +118,26 @@ Entre eles:
 - compatibilidade com o contexto normativo aplicável  
 - inexistência de distinções relevantes entre os casos  
 
-Esses fatores devem ser avaliados pelo usuário ao examinar o relatório.
-
 ---
 
-# Pesquisas adicionais de precedentes
+## 🔍 Pesquisas adicionais de precedentes
 
 O catálogo utilizado pelo sistema contempla um conjunto curado de precedentes considerados especialmente relevantes para análise automatizada.
 
-Entretanto, o usuário pode desejar pesquisar **outros precedentes ou temas não presentes nesse catálogo**.
-
-Para isso, é possível utilizar os recursos de pesquisa disponíveis no **Chat do sistema**, que permitem explorar precedentes adicionais e realizar consultas jurídicas mais amplas.
-
-Para saber mais sobre como realizar esse tipo de pesquisa, consulte o artigo:
-
-**Como pesquisar precedentes utilizando o chat do sistema**
+Para pesquisar **outros precedentes ou temas não presentes nesse catálogo**, é possível utilizar os recursos de pesquisa disponíveis no [Chat do sistema](/artigo/chat-shieldjud).
 
 ---
 
-# Observação final
+## 📝 Observação final
 
 A Análise de Convergência com Precedentes não substitui a interpretação jurídica realizada pelo usuário.
 
 O artefato funciona como **uma ferramenta de identificação de possíveis convergências jurisprudenciais**, ajudando a antecipar a análise de precedentes que poderiam ser identificados apenas em fases mais avançadas do processo.
+
+---
+
+## 📌 Próximos passos
+
+- Conheça a [Análise de admissibilidade](/artigo/analise-admissibilidade)
+- Saiba mais sobre a [Análise de indícios de litigância abusiva](/artigo/analise-litigancia-abusiva)
+- Veja o [Relatório consolidado](/artigo/relatorio-consolidado)

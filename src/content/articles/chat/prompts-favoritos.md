@@ -4,7 +4,7 @@ section: chat
 slug: prompts-favoritos
 ---
 
-## Artigo em construção
+## 🚧 Artigo em construção
 
 Esta funcionalidade permitirá salvar e reutilizar prompts utilizados com frequência no Chat do ShieldJud.
 
@@ -14,6 +14,4 @@ O catálogo de prompts favoritos permitirá:
 - reutilizar modelos de análise  
 - padronizar consultas no chat
 
-Esse recurso está atualmente **em desenvolvimento**.
-
-Em breve este artigo será atualizado com instruções completas de uso.
+> 💡 Dica: esse recurso está atualmente **em desenvolvimento**. Em breve este artigo será atualizado com instruções completas de uso.

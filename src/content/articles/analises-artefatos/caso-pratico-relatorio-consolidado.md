@@ -12,13 +12,13 @@ O **Relatório Consolidado** reúne os resultados produzidos por três análises
 - Relatório de Indícios de Litigância Abusiva  
 - Relatório de Convergência com Precedentes  
 
-Seu objetivo é oferecer **uma visão integrada dos principais pontos do processo**, permitindo que o usuário compreenda rapidamente quais aspectos merecem maior atenção.
-
 Este artigo apresenta um **exemplo prático de uso do relatório consolidado**, demonstrando como os três artefatos podem atuar de forma complementar na análise de um caso.
+
+> 💡 Dica: para entender cada relatório individualmente, consulte os artigos específicos antes de ler este caso prático.
 
 ---
 
-# Contexto do caso
+## 📄 Contexto do caso
 
 Considere um processo envolvendo **negativação indevida em cadastro de inadimplentes**.
 
@@ -31,17 +31,9 @@ Na petição inicial, foram formulados os seguintes pedidos principais:
 - indenização por dano moral  
 - inversão do ônus da prova  
 
-O processo contém documentos como:
-
-- declaração de hipossuficiência  
-- certidão da Receita Federal  
-- prints de consulta ao SERASA  
-
-Após o envio da petição ao sistema, os três relatórios são gerados.
-
 ---
 
-# Resultado da análise de admissibilidade
+## ✅ Resultado da análise de admissibilidade
 
 O **Relatório de Admissibilidade** avalia se a petição inicial apresenta os requisitos formais necessários para o prosseguimento do processo.
 
@@ -56,7 +48,7 @@ Esses elementos não impedem automaticamente o andamento do processo, mas **pode
 
 ---
 
-# Resultado da análise de litigância abusiva
+## 🔍 Resultado da análise de litigância abusiva
 
 O **Relatório de Indícios de Litigância Abusiva** examina padrões narrativos e documentais presentes nos autos.
 
@@ -66,13 +58,11 @@ No caso analisado, foram identificados indícios de intensidade moderada relacio
 - fundamentação genérica do pedido de justiça gratuita  
 - documentação limitada para sustentar a narrativa apresentada
 
-Esses achados possuem caráter **estritamente informativo**.
-
-O relatório não conclui pela existência de litigância abusiva nem atribui qualquer qualificação jurídica ao comportamento processual.
+> ⚠️ Atenção: esses achados possuem caráter estritamente informativo e não concluem pela existência de litigância abusiva.
 
 ---
 
-# Resultado da análise de precedentes
+## ⚖️ Resultado da análise de precedentes
 
 O **Relatório de Convergência com Precedentes** identifica decisões relevantes potencialmente relacionadas ao caso.
 
@@ -86,38 +76,30 @@ Esses precedentes apresentam **similaridade temática com o caso**, mas requerem
 
 ---
 
-# Como o relatório consolidado integra essas análises
+## 🔗 Como o relatório consolidado integra essas análises
 
 O **Relatório Consolidado** reúne os resultados das três análises e organiza os achados em uma visão única.
 
-No caso analisado, o relatório destacou alguns pontos de convergência importantes.
-
-Entre eles:
+No caso analisado, o relatório destacou pontos de convergência:
 
 - o lapso temporal identificado na admissibilidade dialoga com precedentes relacionados à limitação temporal de registros negativos  
 - a fragilidade documental apontada na análise de litigância abusiva também aparece como fator relevante na aderência aos precedentes encontrados  
 
-Essas conexões ajudam o usuário a perceber **como diferentes aspectos do processo podem se relacionar entre si**.
-
 ---
 
-# Pontos de atenção destacados no relatório
+## ⚠️ Pontos de atenção destacados no relatório
 
-O relatório consolidado também apresentou alguns aspectos que podem justificar leitura humana mais cuidadosa.
-
-Entre eles:
+O relatório consolidado apresentou aspectos que podem justificar leitura humana mais cuidadosa:
 
 - pedido de justiça gratuita com documentação limitada  
 - padronização narrativa da petição inicial  
 - necessidade de validação da aderência do caso aos precedentes identificados
 
-Esses elementos não representam conclusões jurídicas.
-
-Eles funcionam apenas como **sinalizações informacionais para orientar a análise do caso**.
+Esses elementos funcionam apenas como **sinalizações informacionais para orientar a análise do caso**.
 
 ---
 
-# Como esse relatório pode apoiar a análise do processo
+## 🎯 Como esse relatório pode apoiar a análise do processo
 
 Ao utilizar o relatório consolidado, o usuário consegue rapidamente compreender:
 
@@ -126,12 +108,17 @@ Ao utilizar o relatório consolidado, o usuário consegue rapidamente compreende
 - se há precedentes potencialmente aplicáveis ao caso  
 - como esses diferentes fatores se relacionam
 
-Essa visão integrada permite que o usuário **direcione sua leitura dos autos de forma mais eficiente**, concentrando atenção nos pontos mais relevantes do processo.
-
 ---
 
-# Observação final
+## 📝 Observação final
 
 O Relatório Consolidado não substitui a análise jurídica humana.
 
 Ele atua como **uma ferramenta de organização e síntese das análises produzidas pelo sistema**, ajudando o usuário a compreender rapidamente os principais elementos do caso antes de aprofundar a leitura dos autos.
+
+---
+
+## 📌 Próximos passos
+
+- Conheça o [Relatório consolidado](/artigo/relatorio-consolidado) em detalhes
+- Saiba mais sobre os [artefatos do ShieldJud](/artigo/artefatos-shieldjud)

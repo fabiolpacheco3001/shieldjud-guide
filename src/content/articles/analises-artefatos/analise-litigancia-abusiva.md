@@ -19,19 +19,15 @@ O relatório:
 - **não recomenda providências judiciais**
 - **não realiza julgamento de mérito**
 
-Ele apenas apresenta **indícios observáveis nos documentos analisados**, permitindo que o operador jurídico realize sua própria avaliação.
+> ⚠️ Atenção: o relatório apenas apresenta indícios observáveis nos documentos analisados. Toda análise exige validação humana.
 
 ---
 
-# Contexto institucional: litigância predatória no Judiciário brasileiro
+## 🏛️ Contexto institucional: litigância predatória no Judiciário brasileiro
 
 O sistema judicial brasileiro enfrenta uma **sobrecarga estrutural histórica**.
 
 Em **2025**, estima-se que existam aproximadamente **79 milhões de processos em tramitação no país**.
-
-Além disso, projeções indicam **crescimento de cerca de 39% no número de novos casos entre 2020 e 2025**, passando de **27,5 milhões para 38,4 milhões de processos anuais**.
-
-Nesse contexto, uma preocupação crescente no sistema de justiça é a chamada **litigância predatória**.
 
 A litigância predatória é caracterizada pelo **uso excessivo ou estratégico do sistema judicial**, muitas vezes por meio de ações massificadas ou padronizadas, que podem buscar:
 
@@ -39,38 +35,23 @@ A litigância predatória é caracterizada pelo **uso excessivo ou estratégico 
 - gerar ganhos indevidos  
 - explorar brechas procedimentais  
 
-Esse tipo de prática pode produzir efeitos relevantes para o sistema judicial, como:
-
-- aumento artificial do volume de processos  
-- deslocamento de recursos humanos e financeiros  
-- atrasos na tramitação de casos legítimos  
-- deterioração da confiança social no sistema de justiça  
-
-Algumas estimativas apontam **prejuízos públicos da ordem de R$ 2,7 bilhões por ano em determinados recortes institucionais**, considerando o **custo médio aproximado de R$ 10 mil por processo no Brasil**.
-
 ---
 
-# Referências institucionais e normativas
+## 📜 Referências institucionais e normativas
 
 O tema tem sido objeto de crescente atenção institucional no Judiciário brasileiro.
 
 Entre os principais instrumentos e iniciativas destacam-se:
 
-- **Recomendação CNJ nº 159/2024**, que trata da identificação e enfrentamento de práticas de litigância predatória;
-- orientações institucionais produzidas pela **Caravana Nacional da Cooperação Judiciária**;
-- precedentes judiciais recentes que tratam do fenômeno da litigância predatória.
+- **Recomendação CNJ nº 159/2024**, que trata da identificação e enfrentamento de práticas de litigância predatória
+- orientações institucionais produzidas pela **Caravana Nacional da Cooperação Judiciária**
+- precedentes judiciais recentes que tratam do fenômeno da litigância predatória
 
-Um material de referência amplamente utilizado nesse contexto é a cartilha elaborada pelo Conselho Nacional de Justiça:
-
-**Cartilha – Caravana Nacional da Cooperação Judiciária**  
-https://www.cnj.jus.br/wp-content/uploads/2025/03/cartilha-caravana-nacional-da-cooperacao-judiciaria.pdf
-
-O relatório gerado pelo ShieldJud não substitui essas iniciativas institucionais.  
-Ele atua apenas como **instrumento assistivo de análise documental**, restrito ao processo analisado.
+> 💡 Dica: consulte a [Cartilha da Caravana Nacional da Cooperação Judiciária](https://www.cnj.jus.br/wp-content/uploads/2025/03/cartilha-caravana-nacional-da-cooperacao-judiciaria.pdf) para aprofundamento no tema.
 
 ---
 
-# Metodologia da análise
+## 🔬 Metodologia da análise
 
 A análise de litigância abusiva realizada pelo ShieldJud é baseada em **critérios objetivos previamente definidos**, aplicados exclusivamente aos documentos enviados pelo usuário.
 
@@ -88,45 +69,23 @@ A análise busca identificar sinais relacionados a aspectos como:
 - consistência documental mínima
 - regularidade de elementos formais
 
-Importante destacar que o sistema **não utiliza dados externos**, **não compara o processo com outros casos** e **não analisa histórico processual das partes ou advogados**.
-
-A análise se limita **exclusivamente ao processo individual submetido ao sistema**.
+> ⚠️ Atenção: o sistema **não utiliza dados externos**, **não compara o processo com outros casos** e **não analisa histórico processual das partes ou advogados**.
 
 ---
 
-# Estrutura do relatório
+## 📋 Estrutura do relatório
 
 O relatório é organizado em quatro blocos principais.
 
----
+### 1. Metodologia da análise
 
-# 1. Metodologia da análise
+Apresenta os fundamentos da análise automatizada, os documentos analisados, critérios aplicados e limites da verificação.
 
-Apresenta os fundamentos da análise automatizada.
+### 2. Painel de critérios analisados
 
-Essa seção esclarece:
-
-- quais documentos foram analisados
-- quais critérios foram aplicados
-- quais são os limites da verificação automatizada
-
-O percentual apresentado no relatório possui **caráter meramente instrumental**, sendo utilizado apenas como forma de organizar a leitura dos sinais identificados.
-
----
-
-# 2. Painel de critérios analisados
-
-O relatório apresenta um **painel estruturado de critérios**, organizado em formato tabular.
-
-Cada critério é apresentado com:
-
-- descrição do critério
-- nota indicativa
-- justificativa factual baseada nos autos
+O relatório apresenta um **painel estruturado de critérios**, organizado em formato tabular com descrição, nota indicativa e justificativa factual.
 
 As notas seguem uma **escala indicativa de 1 a 5**, que representa apenas a intensidade do sinal observado.
-
-A interpretação geral do relatório considera também um **percentual instrumental de concentração de sinais**, representado visualmente da seguinte forma:
 
 | Faixa indicativa | Interpretação |
 |---|---|
@@ -136,45 +95,17 @@ A interpretação geral do relatório considera também um **percentual instrume
 | 🔴 40% – 60% | Alto indício |
 | ⚠️ Acima de 60% | Muito alto indício |
 
-Esse percentual **não possui valor jurídico conclusivo**.
+### 3. Critérios não analisados
 
-Ele apenas auxilia na leitura agregada dos critérios avaliados.
+Por limitação de escopo, alguns aspectos **não são analisados pelo sistema**, incluindo: volume de ações, reiteração de pedidos, histórico institucional, comparações interprocessuais e intenção subjetiva das partes.
 
----
+### 4. Conclusão consolidada
 
-# 3. Critérios não analisados
-
-Por limitação de escopo e acesso a dados externos, alguns aspectos **não são analisados pelo sistema**, incluindo:
-
-- volume de ações do autor ou do advogado  
-- reiteração de pedidos em outros processos  
-- histórico institucional de litigância abusiva  
-- comparações interprocessuais ou estatísticas  
-- intenção subjetiva das partes  
-
-Esses elementos podem ser relevantes em análises institucionais mais amplas, mas **não fazem parte da análise automatizada realizada pelo ShieldJud**.
+Ao final, o sistema apresenta uma **síntese consolidada da análise** com faixa indicativa, principais pontos de atenção e limites da verificação.
 
 ---
 
-# 4. Conclusão consolidada
-
-Ao final do relatório, o sistema apresenta uma **síntese consolidada da análise**.
-
-Essa síntese descreve:
-
-- a faixa indicativa observada
-- os principais pontos que merecem atenção humana
-- os limites da verificação automatizada
-
-A conclusão possui caráter **informativo e não conclusivo**.
-
-Ela serve apenas para orientar a leitura humana do relatório.
-
----
-
-# Limites da verificação automatizada
-
-A análise produzida pelo ShieldJud possui **limites claros de escopo**.
+## 🚫 Limites da verificação automatizada
 
 O sistema:
 
@@ -187,44 +118,32 @@ O sistema:
 
 O relatório descreve **apenas indícios documentais e narrativos observáveis no processo analisado**.
 
-Por esse motivo, **toda análise exige validação humana**.
+---
+
+## 🔒 Integridade e rastreabilidade do relatório
+
+Os relatórios produzidos pelo sistema são **documentos imutáveis**. Após gerados, não podem ser editados, modificados ou reprocessados.
+
+Isso garante integridade, rastreabilidade e consistência das informações apresentadas.
 
 ---
 
-# Integridade e rastreabilidade do relatório
+## 📄 Documentos considerados na análise
 
-Os relatórios produzidos pelo sistema são **documentos imutáveis**.
-
-Após gerados:
-
-- não podem ser editados
-- não podem ser modificados
-- não podem ser reprocessados
-
-Isso garante:
-
-- integridade do documento  
-- rastreabilidade da análise  
-- consistência das informações apresentadas
+A análise considera exclusivamente os documentos submetidos pelo usuário no momento do processamento: petição inicial, procuração, documentos de identificação, comprovantes de residência e documentos probatórios anexados.
 
 ---
 
-# Documentos considerados na análise
-
-A análise considera exclusivamente os documentos submetidos pelo usuário no momento do processamento, normalmente incluindo:
-
-- petição inicial  
-- procuração  
-- documentos de identificação  
-- comprovantes de residência  
-- documentos probatórios anexados  
-
-Todos os elementos analisados são explicitamente listados no relatório.
-
----
-
-# Observação final
+## 📝 Observação final
 
 Esta análise descreve **apenas indícios documentais e narrativos observáveis neste processo específico**.
 
 Ela **não constitui conclusão jurídica** e **exige validação humana antes de qualquer interpretação ou utilização no contexto decisório**.
+
+---
+
+## 📌 Próximos passos
+
+- Conheça a [Análise de admissibilidade](/artigo/analise-admissibilidade)
+- Saiba mais sobre a [Análise de convergência com precedentes](/artigo/analise-convergencia-precedentes)
+- Veja o [Relatório consolidado](/artigo/relatorio-consolidado)
