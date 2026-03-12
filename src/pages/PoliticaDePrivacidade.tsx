@@ -21,9 +21,9 @@ const content = `## 1. OBJETIVO
 
 1.4. Em caso de dúvida, ou para solicitação de esclarecimentos adicionais, colocamos à disposição nosso time de Privacidade de Dados Pessoais através do canal: **psi@softplan.com.br**
 
-## 2. COMO O SHIELD FUNCIONA?
+## 2. COMO O SHIELDJUD FUNCIONA?
 
-2.1. O Shield é uma plataforma desenvolvida pela Softplan para apoiar magistrados, assessores e servidores autorizados na análise técnica inicial de processos judiciais ("Usuários") por meio de recursos de Inteligência Artificial. Ao utilizar a Plataforma, você realiza seu cadastro com seus dados e, no exercício de suas atribuições, poderá inserir petições, documentos e demais informações processuais para que o sistema organize o conteúdo em estrutura lógica, identifique padrões relevantes, verifique aderência a precedentes e auxilie na elaboração de minutas.
+2.1. O ShieldJud é uma plataforma desenvolvida pela Softplan para apoiar magistrados, assessores e servidores autorizados na análise técnica inicial de processos judiciais ("Usuários") por meio de recursos de Inteligência Artificial. Ao utilizar a Plataforma, você realiza seu cadastro com seus dados e, no exercício de suas atribuições, poderá inserir petições, documentos e demais informações processuais para que o sistema organize o conteúdo em estrutura lógica, identifique padrões relevantes, verifique aderência a precedentes e auxilie na elaboração de minutas.
 
 2.2. A inserção dos documentos pode ocorrer tanto por meio do acesso à Plataforma em sua versão web quanto por meio de extensão habilitada no navegador. Em qualquer hipótese, o envio de arquivos depende sempre de ação voluntária do Usuário, que seleciona e autoriza quais documentos serão incluídos para processamento na ferramenta. Cabe exclusivamente ao Usuário avaliar a adequação dos arquivos inseridos, bem como gerenciar posteriormente sua permanência, atualização ou exclusão no ambiente da Plataforma, observando as normas aplicáveis, especialmente em relação a dados pessoais e informações protegidas por sigilo.
 
