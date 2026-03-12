@@ -3,13 +3,13 @@ import { useEffect, useMemo } from "react";
 import { ArrowLeft, Lightbulb, AlertTriangle, Info } from "lucide-react";
 import HelpCenterHeader from "@/components/HelpCenterHeader";
 import HelpCenterFooter from "@/components/HelpCenterFooter";
+import ArticleFeedback from "@/components/ArticleFeedback";
 import { getSectionById } from "@/data/helpCenterData";
 import { getArticleBySlug } from "@/lib/articleLoader";
 import { trackArticleView } from "@/lib/articleViews";
 
 /** Parse inline markdown: **bold**, `code`, [link](url) */
 const renderInline = (text: string) => {
-  // Combined regex for bold, inline code, and links
   const parts = text.split(/(\*\*[^*]+\*\*|`[^`]+`|\[[^\]]+\]\([^)]+\))/g);
   return parts.map((part, j) => {
     if (part.startsWith("**") && part.endsWith("**")) {
@@ -57,7 +57,7 @@ function extractHeadings(content: string) {
   return headings;
 }
 
-/** Detect callout blocks: > 💡 Dica: ..., > ⚠️ Atenção: ..., > ℹ️ Info: ... */
+/** Detect callout blocks */
 function parseCallout(line: string) {
   const calloutMatch = line.match(/^>\s*(💡|⚠️|ℹ️|🔔|Dica:|Atenção:|Aviso:|Info:|Importante:)\s*(.*)/i);
   if (!calloutMatch) return null;
@@ -104,64 +104,58 @@ const ArticlePage = () => {
 
   const renderContent = (content: string) => {
     return content.split("\n").map((line, i) => {
-      // Horizontal rule
       if (line.trim() === "---") {
-        return <hr key={i} className="my-6 border-border" />;
+        return <hr key={i} className="my-4 border-border" />;
       }
 
-      // Callout blocks
       const callout = parseCallout(line);
       if (callout) {
         const style = calloutStyles[callout.type];
         const Icon = style.icon;
         return (
-          <div key={i} className={`${style.bg} border-l-4 ${style.border} rounded-r-lg p-4 my-4 flex gap-3 items-start`}>
-            <Icon size={18} className="mt-0.5 shrink-0 text-foreground" />
+          <div key={i} className={`${style.bg} border-l-4 ${style.border} rounded-r-lg p-3 my-3 flex gap-3 items-start`}>
+            <Icon size={16} className="mt-0.5 shrink-0 text-foreground" />
             <div>
               <span className="font-semibold text-foreground text-sm">{style.label}</span>
-              <p className="text-foreground text-sm mt-1">{renderInline(callout.text)}</p>
+              <p className="text-foreground text-sm mt-0.5">{renderInline(callout.text)}</p>
             </div>
           </div>
         );
       }
 
-      // Regular blockquote
       if (line.startsWith("> ")) {
         return (
-          <blockquote key={i} className="border-l-4 border-muted-foreground/30 pl-4 py-1 my-3 text-muted-foreground italic">
+          <blockquote key={i} className="border-l-4 border-muted-foreground/30 pl-4 py-0.5 my-2 text-muted-foreground italic">
             {renderInline(line.slice(2))}
           </blockquote>
         );
       }
 
-      // H2
       if (line.startsWith("## ")) {
         const text = line.replace("## ", "");
         const id = text.toLowerCase().replace(/[^\w\sà-ú]/g, "").replace(/\s+/g, "-");
         return (
-          <h2 key={i} id={id} className="text-xl font-display font-bold text-foreground mt-8 mb-3 scroll-mt-20">
+          <h2 key={i} id={id} className="text-xl font-display font-bold text-foreground mt-6 mb-2 scroll-mt-20">
             {text}
           </h2>
         );
       }
 
-      // H3
       if (line.startsWith("### ")) {
         const text = line.replace("### ", "");
         const id = text.toLowerCase().replace(/[^\w\sà-ú]/g, "").replace(/\s+/g, "-");
         return (
-          <h3 key={i} id={id} className="text-lg font-display font-bold text-foreground mt-5 mb-2 scroll-mt-20">
+          <h3 key={i} id={id} className="text-lg font-display font-bold text-foreground mt-4 mb-1.5 scroll-mt-20">
             {text}
           </h3>
         );
       }
 
-      // Bold list item
       if (line.startsWith("- **")) {
         const match = line.match(/- \*\*(.+?)\*\*:?\s*(.*)/);
         if (match) {
           return (
-            <li key={i} className="text-foreground mb-2 ml-4 list-disc">
+            <li key={i} className="text-foreground mb-1 ml-4 list-disc">
               <strong>{match[1]}</strong>
               {match[2] && <>{match[2].startsWith(":") ? match[2] : `: ${match[2]}`}</>}
             </li>
@@ -169,31 +163,27 @@ const ArticlePage = () => {
         }
       }
 
-      // Unordered list
       if (line.startsWith("- ")) {
         return (
-          <li key={i} className="text-foreground mb-2 ml-4 list-disc">
+          <li key={i} className="text-foreground mb-1 ml-4 list-disc">
             {renderInline(line.replace("- ", ""))}
           </li>
         );
       }
 
-      // Ordered list
       if (/^\d+\.\s/.test(line)) {
         const text = line.replace(/^\d+\.\s/, "");
         return (
-          <li key={i} className="text-foreground mb-2 ml-4 list-decimal">
+          <li key={i} className="text-foreground mb-1 ml-4 list-decimal">
             {renderInline(text)}
           </li>
         );
       }
 
-      // Empty line
-      if (line.trim() === "") return <div key={i} className="h-3" />;
+      if (line.trim() === "") return <div key={i} className="h-1.5" />;
 
-      // Paragraph
       return (
-        <p key={i} className="text-foreground leading-relaxed mb-2">
+        <p key={i} className="text-foreground leading-relaxed mb-1">
           {renderInline(line)}
         </p>
       );
@@ -221,15 +211,14 @@ const ArticlePage = () => {
               {section.title}
             </span>
           )}
-          <h1 className="text-2xl md:text-3xl font-display font-bold text-foreground mt-4 mb-6">
+          <h1 className="text-2xl md:text-3xl font-display font-bold text-foreground mt-4 mb-4">
             {article.title}
           </h1>
 
-          {/* Table of Contents */}
           {headings.length >= 3 && (
-            <nav className="bg-muted/50 border border-border rounded-xl p-5 mb-8">
-              <p className="text-sm font-semibold text-foreground mb-3">Neste artigo</p>
-              <ul className="space-y-1.5">
+            <nav className="bg-muted/50 border border-border rounded-xl p-4 mb-6">
+              <p className="text-sm font-semibold text-foreground mb-2">Neste artigo</p>
+              <ul className="space-y-1">
                 {headings.map((h, i) => (
                   <li key={i} className={h.level === 3 ? "ml-4" : ""}>
                     <a
@@ -245,6 +234,9 @@ const ArticlePage = () => {
           )}
 
           <div className="prose-sm">{renderContent(article.content)}</div>
+
+          {/* Feedback: like/dislike + comments */}
+          <ArticleFeedback slug={slug || ""} />
         </article>
       </div>
       <div className="flex-1" />
