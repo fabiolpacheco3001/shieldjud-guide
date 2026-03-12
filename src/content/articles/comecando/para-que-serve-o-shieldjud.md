@@ -4,7 +4,7 @@ section: comecando
 slug: para-que-serve-o-shieldjud
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O ShieldJud foi desenvolvido para ajudar o usuário a compreender e organizar rapidamente os elementos jurídicos essenciais de um processo judicial.
 
@@ -14,7 +14,7 @@ O objetivo do sistema não é decidir o processo, mas **organizar as informaçõ
 
 ---
 
-## O problema que o sistema aborda
+## ⚖️ O problema que o sistema aborda
 
 A análise inicial de um processo judicial frequentemente envolve diversas tarefas cognitivas complexas que precisam ser executadas em um curto espaço de tempo.
 
@@ -33,7 +33,7 @@ O ShieldJud atua exatamente nesse momento da jornada do processo.
 
 ---
 
-## Como o ShieldJud ajuda na prática
+## 🛠️ Como o ShieldJud ajuda na prática
 
 O sistema organiza o processo e apresenta análises estruturadas que ajudam o usuário a responder perguntas fundamentais logo no início da análise.
 
@@ -49,7 +49,7 @@ Ao estruturar essas informações, o sistema reduz o tempo necessário para comp
 
 ---
 
-## Benefícios práticos do uso da plataforma
+## ✅ Benefícios práticos do uso da plataforma
 
 ### Redução do esforço cognitivo
 
@@ -81,7 +81,7 @@ As análises realizadas pelo sistema podem indicar aspectos que merecem verifica
 - pedidos genéricos ou imprecisos  
 - padrões processuais incomuns
 
-Esses sinais não representam conclusões automáticas, mas ajudam a orientar a análise.
+> 💡 Dica: esses sinais não representam conclusões automáticas, mas ajudam a orientar a análise.
 
 ---
 
@@ -95,13 +95,13 @@ Isso ajuda o usuário a analisar o caso dentro de um contexto jurídico mais amp
 
 ### Apoio à elaboração de minutas
 
-A partir das análises realizadas, o sistema pode auxiliar na elaboração de uma minuta estruturada para encaminhamento processual inicial.
+A partir das análises realizadas, o sistema pode auxiliar na [elaboração de uma minuta estruturada](/artigo/elaboracao-assistida-minutas) para encaminhamento processual inicial.
 
 Esse recurso pode ajudar a reduzir tempo gasto na elaboração de textos repetitivos ou padronizados.
 
 ---
 
-## Quando utilizar o ShieldJud
+## 📅 Quando utilizar o ShieldJud
 
 A plataforma pode ser utilizada sempre que o usuário precisar analisar um processo judicial e compreender rapidamente seus elementos principais.
 
@@ -114,17 +114,17 @@ Situações comuns incluem:
 
 ---
 
-## O papel do usuário no processo decisório
+## 👤 O papel do usuário no processo decisório
 
 O ShieldJud não substitui o julgamento humano.
 
 A função da plataforma é apresentar informações organizadas e análises estruturadas para apoiar a compreensão do processo.
 
-A decisão final sobre qualquer encaminhamento processual permanece sempre sob responsabilidade do usuário.
+> ⚠️ Atenção: a decisão final sobre qualquer encaminhamento processual permanece sempre sob responsabilidade do usuário.
 
 ---
 
-## Princípios de transparência
+## 🏛️ Princípios de transparência
 
 O funcionamento do sistema segue princípios fundamentais de uso responsável de inteligência artificial.
 
@@ -138,8 +138,8 @@ Esses princípios estão alinhados às diretrizes da **Resolução CNJ nº 615/2
 
 ---
 
-## Próximo passo
+## 📚 Próximo passo
 
 Para entender melhor como o sistema realiza as análises, recomendamos continuar com o artigo:
 
-**Como funciona a análise de um processo no ShieldJud**
+- [Como funciona a análise de um processo no ShieldJud](/artigo/como-funciona-analise-processo-shieldjud)

@@ -4,17 +4,17 @@ section: comecando
 slug: limites-e-uso-responsavel-da-ia
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O ShieldJud utiliza inteligência artificial para apoiar a análise de processos e a elaboração de conteúdos jurídicos.
 
 A tecnologia foi projetada para **auxiliar o usuário na organização e interpretação das informações**, mas não substitui a análise jurídica realizada pelo magistrado ou pelo servidor responsável.
 
-Por esse motivo, todas as respostas devem ser interpretadas como **apoio à tomada de decisão**, e não como decisões automáticas.
+> ⚠️ Atenção: todas as respostas devem ser interpretadas como **apoio à tomada de decisão**, e não como decisões automáticas.
 
 ---
 
-## O papel da inteligência artificial no ShieldJud
+## 🤖 O papel da inteligência artificial no ShieldJud
 
 A inteligência artificial do sistema pode ajudar a:
 
@@ -28,7 +28,7 @@ Essas funcionalidades têm como objetivo **agilizar a análise processual**, man
 
 ---
 
-## O que a inteligência artificial não faz
+## 🚫 O que a inteligência artificial não faz
 
 O sistema não toma decisões jurídicas nem substitui a avaliação do usuário.
 
@@ -43,23 +43,17 @@ Por esse motivo, todas as análises devem ser **avaliadas criticamente pelo usu�
 
 ---
 
-## A qualidade da análise depende dos documentos enviados
+## 📄 A qualidade da análise depende dos documentos enviados
 
 A inteligência artificial analisa exclusivamente os documentos fornecidos pelo usuário.
 
 Se informações relevantes estiverem ausentes, a análise pode ficar incompleta.
 
-Sempre que possível, envie:
-
-- a petição inicial completa  
-- documentos anexos relevantes  
-- peças processuais importantes
-
-Quanto mais completo for o conjunto de documentos, maior tende a ser a qualidade da análise.
+> 💡 Dica: sempre que possível, envie a petição inicial completa, documentos anexos relevantes e peças processuais importantes. Veja as [boas práticas de preparação de documentos](/artigo/boas-praticas-preparar-documentos).
 
 ---
 
-## O usuário mantém controle total sobre o resultado
+## 👤 O usuário mantém controle total sobre o resultado
 
 O ShieldJud foi projetado para operar com **controle humano permanente**.
 
@@ -74,7 +68,7 @@ O sistema funciona como **instrumento de apoio**, preservando integralmente a au
 
 ---
 
-## Transparência da inteligência artificial
+## 🔍 Transparência da inteligência artificial
 
 A inteligência artificial pode produzir respostas diferentes para perguntas semelhantes, especialmente quando o contexto ou a formulação da pergunta varia.
 
@@ -88,7 +82,7 @@ Essa transparência ajuda o usuário a compreender melhor o funcionamento da fer
 
 ---
 
-## Uso responsável da ferramenta
+## ✅ Uso responsável da ferramenta
 
 Para obter melhores resultados, recomenda-se utilizar a plataforma como um **instrumento de apoio à análise**, mantendo sempre o julgamento jurídico humano como elemento central do processo decisório.
 
