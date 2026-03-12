@@ -191,7 +191,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 const TermosDeUso = () => (
   <LegalDocumentPage
-    title="Termo de Uso — Shield"
+    title="Termo de Uso — ShieldJud"
     lastUpdate="03 de março de 2026"
     currentVersion="1.0"
     content={content}
