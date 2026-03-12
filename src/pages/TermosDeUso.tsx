@@ -114,7 +114,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 7. PROPRIEDADE INTELECTUAL
 
-7.1. São de titularidade exclusiva da Softplan: código-fonte; arquitetura; modelos algorítmicos; marca Shield; documentação técnica.
+7.1. São de titularidade exclusiva da Softplan: código-fonte; arquitetura; modelos algorítmicos; marca ShieldJud; documentação técnica.
 
 7.2. O usuário mantém titularidade sobre: documentos inseridos; dados próprios; minutas elaboradas a partir de suas interações.
 
