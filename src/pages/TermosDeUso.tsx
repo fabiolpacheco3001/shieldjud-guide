@@ -29,7 +29,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 2. ADERÊNCIA REGULATÓRIA E GOVERNANÇA DE IA
 
-2.1. O Shield foi desenvolvido em conformidade com a Resolução CNJ nº 615/2025, observando especialmente:
+2.1. O ShieldJud foi desenvolvido em conformidade com a Resolução CNJ nº 615/2025, observando especialmente:
 
 - 2.1.1. supervisão humana efetiva;
 - 2.1.2. transparência e explicabilidade;
