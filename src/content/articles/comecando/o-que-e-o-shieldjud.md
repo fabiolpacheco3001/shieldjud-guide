@@ -4,7 +4,7 @@ section: comecando
 slug: o-que-e-o-shieldjud
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O ShieldJud é uma plataforma de análise jurídica assistida por inteligência artificial projetada para apoiar a compreensão estruturada de processos judiciais.
 
@@ -15,7 +15,7 @@ Ele atua como uma camada de apoio técnico que organiza o processo, sinaliza ris
 
 ---
 
-## Problema que o ShieldJud resolve
+## ⚖️ Problema que o ShieldJud resolve
 
 Processos judiciais frequentemente apresentam grande volume documental, narrativas complexas e múltiplos elementos jurídicos que precisam ser analisados antes de qualquer encaminhamento.
 
@@ -32,7 +32,7 @@ O ShieldJud foi desenvolvido para reduzir essa fricção inicial, organizando es
 
 ---
 
-## O que o ShieldJud faz
+## 📋 O que o ShieldJud faz
 
 A plataforma analisa os documentos do processo e produz uma série de **artefatos analíticos**, que ajudam o usuário a compreender rapidamente a situação processual.
 
@@ -62,8 +62,7 @@ Essa análise considera critérios como:
 - documentação frágil ou incompleta  
 - inconsistências narrativas relevantes  
 
-Importante: o sistema **não rotula litigantes nem afirma má-fé**.  
-Ele apenas apresenta sinais técnicos que podem justificar análise mais cuidadosa.
+> ⚠️ Atenção: o sistema **não rotula litigantes nem afirma má-fé**. Ele apenas apresenta sinais técnicos que podem justificar análise mais cuidadosa.
 
 ---
 
@@ -107,7 +106,7 @@ A minuta segue sempre uma estrutura padronizada e permanece sob controle integra
 
 ---
 
-### Mapa de raciocínio jurídico
+### 🗺️ Mapa de raciocínio jurídico
 
 O sistema também pode apresentar um **mapa estruturado do raciocínio jurídico do processo**, conectando:
 
@@ -121,7 +120,7 @@ Esse recurso ajuda a visualizar rapidamente como os elementos do processo se rel
 
 ---
 
-### Podcast do processo
+### 🎙️ Podcast do processo
 
 Em alguns casos o sistema também pode gerar uma síntese narrada do processo, apresentando os principais pontos do caso em formato de áudio.
 
@@ -129,12 +128,12 @@ Essa funcionalidade permite que o usuário compreenda rapidamente o contexto do 
 
 ---
 
-## Como o ShieldJud funciona
+## ⚙️ Como o ShieldJud funciona
 
 O funcionamento da plataforma segue uma lógica simples.
 
 Primeiro, o usuário envia os documentos do processo para análise.  
-Isso pode ocorrer por meio de upload manual ou pela captura automática de documentos utilizando a extensão do Chrome.
+Isso pode ocorrer por meio de upload manual ou pela captura automática de documentos utilizando a [extensão do Chrome](/artigo/instalar-extensao).
 
 Em seguida, o sistema processa os documentos utilizando modelos de inteligência artificial especializados em análise jurídica.
 
@@ -142,7 +141,7 @@ Por fim, os resultados são apresentados na forma de artefatos estruturados, que
 
 ---
 
-## Princípios de funcionamento
+## 🏛️ Princípios de funcionamento
 
 O ShieldJud foi projetado com alguns princípios centrais.
 
@@ -167,7 +166,7 @@ Esses princípios estão alinhados às boas práticas de uso de inteligência ar
 
 ---
 
-## O que o ShieldJud não faz
+## 🚫 O que o ShieldJud não faz
 
 Apesar de utilizar inteligência artificial, o ShieldJud possui limites claros.
 
@@ -178,16 +177,14 @@ O sistema não:
 - cria teses jurídicas inéditas  
 - impõe conclusões obrigatórias  
 
-A função do sistema é organizar e estruturar informações relevantes para apoiar a análise do usuário.
-
-A decisão final permanece sempre sob responsabilidade humana.
+> 💡 Dica: a função do sistema é organizar e estruturar informações relevantes para apoiar a análise do usuário. A decisão final permanece sempre sob responsabilidade humana.
 
 ---
 
-## Próximos passos
+## 📚 Próximos passos
 
-Se você está começando a usar o ShieldJud, recomendamos continuar pelos seguintes artigos da Central de Ajuda:
+Se você está começando a usar o ShieldJud, recomendamos continuar pelos seguintes artigos:
 
-- Para que serve o ShieldJud  
-- Como funciona a análise de um processo  
-- Como enviar um processo para análise
+- [Para que serve o ShieldJud](/artigo/para-que-serve-o-shieldjud)  
+- [Como funciona a análise de um processo](/artigo/como-funciona-analise-processo-shieldjud)  
+- [Como enviar um processo para análise](/artigo/enviar-processo-analise)

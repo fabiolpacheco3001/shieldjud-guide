@@ -4,33 +4,33 @@ section: chat
 slug: boas-praticas-chat
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O Chat do ShieldJud permite explorar os documentos e análises de um processo por meio de perguntas em linguagem natural.
 
 Para obter respostas mais úteis e precisas, é recomendável seguir algumas boas práticas ao formular suas perguntas.
 
-Essas práticas ajudam o sistema a compreender melhor o que você deseja analisar e a produzir respostas mais relevantes.
+> 💡 Dica: essas práticas ajudam o sistema a compreender melhor o que você deseja analisar e a produzir respostas mais relevantes.
 
 ---
 
-## Seja específico na pergunta
+## 🎯 Seja específico na pergunta
 
 Perguntas mais específicas tendem a gerar respostas mais úteis.
 
 Em vez de perguntas muito amplas, procure indicar exatamente o que deseja analisar.
 
-Exemplo menos específico:
+❌ Exemplo menos específico:
 
 "Explique esse processo."
 
-Exemplo mais específico:
+✅ Exemplo mais específico:
 
 "Resuma os principais fatos narrados na petição inicial."
 
 ---
 
-## Indique o elemento do processo que deseja explorar
+## 📌 Indique o elemento do processo que deseja explorar
 
 Sempre que possível, indique qual parte do processo você deseja analisar.
 
@@ -48,7 +48,7 @@ Exemplo:
 
 ---
 
-## Utilize o chat para investigar o processo
+## 🔍 Utilize o chat para investigar o processo
 
 O chat pode ser utilizado como uma ferramenta investigativa para explorar relações entre elementos do processo.
 
@@ -62,15 +62,15 @@ Esse tipo de interação pode ajudar a aprofundar a análise jurídica do caso.
 
 ---
 
-## Combine o chat com outros artefatos do sistema
+## 🔗 Combine o chat com outros artefatos do sistema
 
-O chat funciona melhor quando utilizado em conjunto com os artefatos produzidos pelo ShieldJud, como:
+O chat funciona melhor quando utilizado em conjunto com os [artefatos produzidos pelo ShieldJud](/artigo/artefatos-shieldjud), como:
 
-- análise de admissibilidade  
-- análise de litigância abusiva  
-- convergência com precedentes  
-- mapa de raciocínio jurídico  
-- análise consolidada do processo
+- [análise de admissibilidade](/artigo/analise-admissibilidade)  
+- [análise de litigância abusiva](/artigo/analise-litigancia-abusiva)  
+- [convergência com precedentes](/artigo/analise-convergencia-precedentes)  
+- [mapa de raciocínio jurídico](/artigo/mapa-raciocinio-juridico)  
+- [análise consolidada do processo](/artigo/relatorio-consolidado)
 
 Você pode pedir ao chat para explicar ou aprofundar pontos identificados nesses relatórios.
 
@@ -80,11 +80,11 @@ Exemplo:
 
 ---
 
-## Exemplos de perguntas que você pode fazer
+## 💡 Exemplos de perguntas que você pode fazer
 
 A seguir estão alguns exemplos de perguntas úteis que podem ser feitas ao chat.
 
-### Entender rapidamente o processo
+### 🔎 Entender rapidamente o processo
 
 - "Resuma os principais fatos narrados na petição inicial."  
 - "Qual é o conflito central deste processo?"  
@@ -92,7 +92,7 @@ A seguir estão alguns exemplos de perguntas úteis que podem ser feitas ao chat
 
 ---
 
-### Explorar pedidos e fundamentos jurídicos
+### ⚖️ Explorar pedidos e fundamentos jurídicos
 
 - "Quais são os pedidos formulados na petição inicial?"  
 - "Qual é o fundamento jurídico utilizado para o pedido de dano moral?"  
@@ -100,7 +100,7 @@ A seguir estão alguns exemplos de perguntas úteis que podem ser feitas ao chat
 
 ---
 
-### Identificar provas relevantes
+### 📄 Identificar provas relevantes
 
 - "Quais documentos são utilizados como prova no processo?"  
 - "Existe prova documental que sustente o pedido principal?"  
@@ -108,7 +108,7 @@ A seguir estão alguns exemplos de perguntas úteis que podem ser feitas ao chat
 
 ---
 
-### Investigar inconsistências
+### 🔍 Investigar inconsistências
 
 - "Existe alguma inconsistência entre os fatos narrados e os documentos apresentados?"  
 - "Há lacunas na documentação apresentada?"  
@@ -116,7 +116,7 @@ A seguir estão alguns exemplos de perguntas úteis que podem ser feitas ao chat
 
 ---
 
-### Explorar o raciocínio jurídico do processo
+### 🧠 Explorar o raciocínio jurídico do processo
 
 - "Quais fatos sustentam o pedido principal?"  
 - "Quais provas estão associadas a esses fatos?"  
@@ -124,7 +124,7 @@ A seguir estão alguns exemplos de perguntas úteis que podem ser feitas ao chat
 
 ---
 
-## Observação importante
+## ⚠️ Observação importante
 
 As respostas do chat são baseadas exclusivamente nas informações presentes nos documentos e nos dados estruturados do processo.
 

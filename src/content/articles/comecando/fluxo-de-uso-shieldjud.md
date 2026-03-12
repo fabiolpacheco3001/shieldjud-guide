@@ -4,7 +4,7 @@ section: comecando
 slug: fluxo-de-uso-shieldjud
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O uso do ShieldJud segue um fluxo simples e estruturado.
 
@@ -14,7 +14,7 @@ Esse fluxo permite compreender rapidamente a situação processual e apoiar o en
 
 ---
 
-## Etapa 1 — Enviar o processo para análise
+## 📤 Etapa 1 — Enviar o processo para análise
 
 O primeiro passo é enviar os documentos do processo para o ShieldJud.
 
@@ -28,13 +28,13 @@ O usuário pode enviar diretamente os documentos do processo em formato PDF, nor
 - documentos anexos  
 - peças processuais relevantes  
 
-A petição inicial é o documento central da análise.
+> 💡 Dica: a petição inicial é o documento central da análise. Envie sempre a versão completa.
 
 ---
 
 ### Captura automática via extensão do Chrome
 
-O ShieldJud também oferece uma extensão do navegador que permite capturar documentos diretamente dos sistemas processuais dos tribunais.
+O ShieldJud também oferece uma [extensão do navegador](/artigo/instalar-extensao) que permite capturar documentos diretamente dos sistemas processuais dos tribunais.
 
 Essa extensão pode operar em portais como:
 
@@ -46,7 +46,7 @@ Com a extensão instalada, o usuário pode selecionar documentos diretamente na 
 
 ---
 
-## Etapa 2 — Processamento do processo
+## ⚙️ Etapa 2 — Processamento do processo
 
 Após o envio dos documentos, o ShieldJud inicia automaticamente a análise do material.
 
@@ -64,11 +64,11 @@ A partir dessa análise, o sistema organiza as informações e gera artefatos es
 
 ---
 
-## Etapa 3 — Geração dos artefatos
+## 📊 Etapa 3 — Geração dos artefatos
 
 Os resultados da análise são apresentados na forma de **artefatos analíticos**, cada um examinando o processo sob uma perspectiva específica.
 
-Entre os principais artefatos disponíveis estão:
+Entre os principais [artefatos disponíveis](/artigo/artefatos-shieldjud) estão:
 
 - análise de admissibilidade  
 - análise de precedentes  
@@ -82,7 +82,7 @@ Esses artefatos ajudam o usuário a compreender rapidamente os elementos princip
 
 ---
 
-## Etapa 4 — Exploração do processo no workspace
+## 🖥️ Etapa 4 — Exploração do processo no workspace
 
 Depois que a análise é concluída, o processo passa a ser exibido dentro do workspace do ShieldJud.
 
@@ -90,7 +90,7 @@ Esse ambiente reúne todos os elementos necessários para explorar o processo.
 
 Normalmente o workspace inclui três áreas principais:
 
-### Painel de documentos
+### 📂 Painel de documentos
 
 Lista dos documentos enviados para análise.
 
@@ -98,15 +98,15 @@ Permite visualizar os arquivos que compõem o processo.
 
 ---
 
-### Área de interação e chat
+### 💬 Área de interação e chat
 
 Espaço onde o usuário pode interagir com o sistema e fazer perguntas sobre o processo analisado.
 
-O chat permite consultas específicas sobre o conteúdo do processo.
+O [chat](/artigo/chat-shieldjud) permite consultas específicas sobre o conteúdo do processo.
 
 ---
 
-### Painel de artefatos
+### 📑 Painel de artefatos
 
 Área onde ficam disponíveis os relatórios e análises gerados pelo sistema.
 
@@ -114,7 +114,7 @@ Cada artefato pode ser expandido, copiado ou exportado.
 
 ---
 
-## Etapa 5 — Compreensão estruturada do processo
+## 🧠 Etapa 5 — Compreensão estruturada do processo
 
 Com base nos artefatos gerados, o usuário pode compreender rapidamente:
 
@@ -128,7 +128,7 @@ Essa visão estruturada ajuda a reduzir o tempo necessário para compreender o p
 
 ---
 
-## Etapa 6 — Apoio ao encaminhamento processual
+## ✍️ Etapa 6 — Apoio ao encaminhamento processual
 
 Após analisar os artefatos, o usuário pode utilizar o ShieldJud como apoio para estruturar o encaminhamento inicial do processo.
 
@@ -138,13 +138,13 @@ Entre os encaminhamentos mais comuns estão:
 - determinação de emenda da petição inicial  
 - decisão de não seguimento
 
-O sistema pode auxiliar na elaboração de uma minuta inicial estruturada para esses cenários.
+O sistema pode auxiliar na [elaboração de uma minuta](/artigo/elaboracao-assistida-minutas) inicial estruturada para esses cenários.
 
-A decisão final permanece sempre sob controle do usuário.
+> ⚠️ Atenção: a decisão final permanece sempre sob controle do usuário.
 
 ---
 
-## Transparência no uso da inteligência artificial
+## 🏛️ Transparência no uso da inteligência artificial
 
 O funcionamento do ShieldJud segue princípios de uso responsável de inteligência artificial.
 
@@ -170,7 +170,7 @@ Esses princípios estão alinhados às diretrizes estabelecidas pela **Resoluç�
 
 ---
 
-## Resumo do fluxo
+## 📝 Resumo do fluxo
 
 O uso do ShieldJud pode ser resumido em seis etapas principais:
 
@@ -183,10 +183,10 @@ O uso do ShieldJud pode ser resumido em seis etapas principais:
 
 ---
 
-## Próximos passos
+## 📚 Próximos passos
 
 Agora que você conhece o fluxo geral da plataforma, recomendamos explorar os seguintes artigos:
 
-- Como enviar um processo para análise  
-- Como usar a biblioteca do usuário  
-- Como interpretar os artefatos gerados pelo sistema
+- [Como enviar um processo para análise](/artigo/enviar-processo-analise)  
+- [O que é a biblioteca de documentos](/artigo/o-que-e-biblioteca)  
+- [O que são os artefatos do ShieldJud](/artigo/artefatos-shieldjud)

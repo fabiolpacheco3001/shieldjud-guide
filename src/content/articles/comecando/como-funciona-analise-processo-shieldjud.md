@@ -4,7 +4,7 @@ section: comecando
 slug: como-funciona-analise-processo-shieldjud
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 A análise de um processo no ShieldJud segue um fluxo simples e estruturado.
 
@@ -14,9 +14,9 @@ Essas análises são apresentadas ao usuário na forma de **artefatos estruturad
 
 ---
 
-## Etapa 1 — Envio do processo
+## 📤 Etapa 1 — Envio do processo
 
-O primeiro passo para iniciar uma análise é enviar os documentos do processo para o ShieldJud.
+O primeiro passo para iniciar uma análise é [enviar os documentos do processo](/artigo/enviar-processo-analise) para o ShieldJud.
 
 Isso pode ser feito de duas formas principais.
 
@@ -30,13 +30,13 @@ Em geral, os documentos enviados incluem:
 - documentos anexos  
 - peças relevantes do processo  
 
-A petição inicial é o documento central da análise.
+> 💡 Dica: a petição inicial é o documento central da análise. Envie sempre a versão completa.
 
 ---
 
 ### Captura automática por extensão do navegador
 
-O ShieldJud também oferece uma **extensão do Google Chrome** que permite enviar documentos diretamente a partir dos sistemas de gestão processual dos tribunais.
+O ShieldJud também oferece uma **[extensão do Google Chrome](/artigo/instalar-extensao)** que permite enviar documentos diretamente a partir dos sistemas de gestão processual dos tribunais.
 
 Essa extensão pode funcionar em portais como:
 
@@ -50,7 +50,7 @@ Esse mecanismo evita etapas manuais de download e upload de arquivos.
 
 ---
 
-## Etapa 2 — Processamento do processo
+## ⚙️ Etapa 2 — Processamento do processo
 
 Após o envio dos documentos, o ShieldJud inicia automaticamente o processamento das informações.
 
@@ -68,26 +68,26 @@ A partir dessa análise, o sistema organiza as informações e produz diferentes
 
 ---
 
-## Etapa 3 — Geração dos artefatos de análise
+## 📊 Etapa 3 — Geração dos artefatos de análise
 
-Os resultados do processamento são apresentados ao usuário na forma de **artefatos estruturados**.
+Os resultados do processamento são apresentados ao usuário na forma de **[artefatos estruturados](/artigo/artefatos-shieldjud)**.
 
 Cada artefato examina o processo sob uma perspectiva específica.
 
 Entre os principais artefatos disponíveis estão:
 
-- análise de admissibilidade  
-- análise de precedentes  
-- identificação de indícios de litigância abusiva  
-- análise consolidada do processo  
-- mapa de raciocínio jurídico  
-- geração assistida de minuta  
+- [análise de admissibilidade](/artigo/analise-admissibilidade)  
+- [análise de precedentes](/artigo/analise-convergencia-precedentes)  
+- [identificação de indícios de litigância abusiva](/artigo/analise-litigancia-abusiva)  
+- [análise consolidada do processo](/artigo/relatorio-consolidado)  
+- [mapa de raciocínio jurídico](/artigo/mapa-raciocinio-juridico)  
+- [geração assistida de minuta](/artigo/elaboracao-assistida-minutas)  
 
 Esses artefatos ajudam o usuário a compreender rapidamente os elementos essenciais do caso.
 
 ---
 
-## Etapa 4 — Workspace do processo
+## 🖥️ Etapa 4 — Workspace do processo
 
 Após a análise, o processo passa a ser visualizado dentro de um **workspace dedicado** na plataforma.
 
@@ -95,22 +95,22 @@ Nesse ambiente o usuário pode acessar:
 
 - os documentos enviados  
 - os artefatos gerados pelo sistema  
-- o chat conversacional do processo  
+- o [chat conversacional](/artigo/chat-shieldjud) do processo  
 
 A estrutura típica do workspace inclui:
 
-**Painel de documentos**  
+**📂 Painel de documentos**  
 Lista dos documentos enviados para análise.
 
-**Área de interação**  
+**💬 Área de interação**  
 Espaço onde o usuário pode explorar o processo e interagir com o sistema.
 
-**Painel de artefatos**  
+**📑 Painel de artefatos**  
 Seção onde ficam disponíveis os relatórios e análises geradas pelo ShieldJud.
 
 ---
 
-## Etapa 5 — Exploração das análises
+## 🔍 Etapa 5 — Exploração das análises
 
 O usuário pode explorar livremente os artefatos gerados pelo sistema.
 
@@ -125,7 +125,7 @@ Essas análises ajudam a:
 
 ---
 
-## Etapa 6 — Apoio ao encaminhamento processual
+## ✍️ Etapa 6 — Apoio ao encaminhamento processual
 
 Após examinar os artefatos, o usuário pode utilizar o sistema para apoiar a elaboração de um encaminhamento inicial para o processo.
 
@@ -135,13 +135,13 @@ Entre as possibilidades mais comuns estão:
 - determinação de emenda da petição inicial  
 - decisão de não seguimento  
 
-O ShieldJud pode auxiliar na elaboração de uma minuta estruturada para esses cenários.
+O ShieldJud pode auxiliar na [elaboração de uma minuta estruturada](/artigo/elaboracao-assistida-minutas) para esses cenários.
 
-A decisão final permanece sempre sob controle do usuário.
+> ⚠️ Atenção: a decisão final permanece sempre sob controle do usuário.
 
 ---
 
-## Transparência e controle humano
+## 🏛️ Transparência e controle humano
 
 O funcionamento do ShieldJud segue princípios fundamentais de uso responsável de inteligência artificial.
 
@@ -167,10 +167,10 @@ Esses princípios estão alinhados às diretrizes estabelecidas pela **Resoluç�
 
 ---
 
-## Próximo passo
+## 📚 Próximo passo
 
 Agora que você entende como funciona a análise de um processo, recomendamos continuar com os seguintes artigos:
 
-- Fluxo de uso da plataforma  
-- Como enviar um processo para análise  
-- Como interpretar os artefatos gerados pelo sistema
+- [Fluxo de uso da plataforma](/artigo/fluxo-de-uso-shieldjud)  
+- [Como enviar um processo para análise](/artigo/enviar-processo-analise)  
+- [O que são os artefatos do ShieldJud](/artigo/artefatos-shieldjud)

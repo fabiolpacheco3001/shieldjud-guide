@@ -4,7 +4,7 @@ section: problemas
 slug: sistema-demorando-responder
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 Em algumas situações, o sistema pode levar mais tempo para responder a uma solicitação.
 
@@ -12,7 +12,7 @@ Isso geralmente está relacionado ao processamento dos documentos enviados ou à
 
 ---
 
-## Processamento de documentos
+## ⚙️ Processamento de documentos
 
 Quando um processo é enviado para análise, o sistema precisa:
 
@@ -24,7 +24,7 @@ Dependendo do tamanho ou da quantidade de documentos, esse processamento pode le
 
 ---
 
-## Solicitações mais complexas
+## 🧠 Solicitações mais complexas
 
 Perguntas mais complexas ou análises mais detalhadas podem exigir maior tempo de processamento.
 
@@ -38,23 +38,23 @@ Nesses casos, o tempo de resposta pode ser um pouco maior.
 
 ---
 
-## Verifique sua conexão com a internet
+## 📡 Verifique sua conexão com a internet
 
 Conexões instáveis podem afetar o tempo de carregamento das respostas.
 
-Caso o sistema pareça travado ou demore muito para responder, verifique se sua conexão está funcionando corretamente.
+> 💡 Dica: caso o sistema pareça travado ou demore muito para responder, verifique se sua conexão está funcionando corretamente.
 
 ---
 
-## Aguarde a conclusão da análise
+## ⏳ Aguarde a conclusão da análise
 
 Se o sistema estiver processando uma solicitação, aguarde alguns instantes antes de tentar enviar um novo comando.
 
-Interromper ou reiniciar a análise pode fazer com que o processamento precise ser iniciado novamente.
+> ⚠️ Atenção: interromper ou reiniciar a análise pode fazer com que o processamento precise ser iniciado novamente.
 
 ---
 
-## Quando o problema persistir
+## ❓ Quando o problema persistir
 
 Se o sistema continuar demorando muito para responder, tente:
 

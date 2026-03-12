@@ -4,7 +4,7 @@ section: comecando
 slug: limitacoes-e-boas-praticas-shieldjud
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O ShieldJud é uma ferramenta de análise jurídica assistida por inteligência artificial projetada para ajudar o usuário a compreender e organizar rapidamente os elementos relevantes de um processo judicial.
 
@@ -14,7 +14,7 @@ Compreender essas limitações é essencial para utilizar o sistema de forma ade
 
 ---
 
-## O papel do ShieldJud no processo decisório
+## 👤 O papel do ShieldJud no processo decisório
 
 O ShieldJud foi desenvolvido para **apoiar a análise jurídica**, não para substituir o julgamento humano.
 
@@ -25,11 +25,11 @@ O sistema atua como uma camada de apoio técnico que:
 - sinaliza pontos de atenção  
 - apresenta análises estruturadas  
 
-A decisão final sobre qualquer encaminhamento processual permanece sempre sob responsabilidade do usuário.
+> ⚠️ Atenção: a decisão final sobre qualquer encaminhamento processual permanece sempre sob responsabilidade do usuário.
 
 ---
 
-## Limitações do sistema
+## 🚫 Limitações do sistema
 
 ### O sistema não decide processos
 
@@ -45,7 +45,7 @@ As análises produzidas pelo ShieldJud são baseadas exclusivamente nos document
 
 Se informações relevantes estiverem ausentes ou incompletas, isso pode impactar os resultados apresentados.
 
-Por esse motivo, é importante garantir que os documentos essenciais do processo sejam incluídos na análise.
+> 💡 Dica: garanta que os documentos essenciais do processo sejam incluídos na análise. Consulte as [boas práticas de preparação de documentos](/artigo/boas-praticas-preparar-documentos).
 
 ---
 
@@ -83,13 +83,13 @@ A interpretação dessas informações depende sempre da análise humana.
 
 ---
 
-## Boas práticas de uso
+## ✅ Boas práticas de uso
 
 Para obter melhores resultados com a plataforma, recomenda-se observar algumas boas práticas.
 
 ---
 
-### Enviar documentos completos
+### 📤 Enviar documentos completos
 
 Sempre que possível, inclua na análise:
 
@@ -101,7 +101,7 @@ Quanto mais completo for o conjunto documental, maior tende a ser a qualidade da
 
 ---
 
-### Utilizar as análises como apoio ao raciocínio
+### 🧠 Utilizar as análises como apoio ao raciocínio
 
 Os artefatos apresentados pelo ShieldJud devem ser utilizados como **ferramentas de organização da análise jurídica**.
 
@@ -109,7 +109,7 @@ Eles ajudam a estruturar a compreensão do processo, mas não substituem o julga
 
 ---
 
-### Verificar sempre os pontos indicados pelo sistema
+### 🔍 Verificar sempre os pontos indicados pelo sistema
 
 Quando o sistema sinalizar pontos de atenção — como inconsistências narrativas ou ausência de documentos — é recomendável verificar diretamente os elementos mencionados no processo.
 
@@ -117,9 +117,9 @@ Essa verificação ajuda a confirmar ou refinar a interpretação apresentada.
 
 ---
 
-### Utilizar os artefatos como instrumento de organização
+### 📋 Utilizar os artefatos como instrumento de organização
 
-Os artefatos gerados pelo sistema podem ajudar a:
+Os [artefatos gerados pelo sistema](/artigo/artefatos-shieldjud) podem ajudar a:
 
 - estruturar a compreensão do caso  
 - identificar rapidamente questões relevantes  
@@ -129,7 +129,7 @@ Utilizá-los dessa forma tende a aumentar a eficiência da análise processual.
 
 ---
 
-## Princípios de uso responsável de IA
+## 🏛️ Princípios de uso responsável de IA
 
 O ShieldJud foi desenvolvido seguindo princípios fundamentais de uso responsável de inteligência artificial no contexto jurídico.
 
@@ -159,7 +159,7 @@ Esses princípios estão alinhados às diretrizes estabelecidas pela **Resoluç�
 
 ---
 
-## Conclusão
+## 🎯 Conclusão
 
 O ShieldJud é uma ferramenta de apoio técnico projetada para ajudar o usuário a organizar a análise de processos judiciais com maior clareza e eficiência.
 
@@ -173,10 +173,10 @@ Ao mesmo tempo, o controle sobre qualquer decisão permanece sempre com o usuár
 
 ---
 
-## Próximos artigos recomendados
+## 📚 Próximos artigos recomendados
 
 Para continuar explorando a plataforma, recomendamos os seguintes artigos:
 
-- Como enviar um processo para análise  
-- Como funciona a biblioteca do usuário  
-- Como interpretar os artefatos gerados pelo sistema
+- [Como enviar um processo para análise](/artigo/enviar-processo-analise)  
+- [O que é a biblioteca de documentos](/artigo/o-que-e-biblioteca)  
+- [O que são os artefatos do ShieldJud](/artigo/artefatos-shieldjud)

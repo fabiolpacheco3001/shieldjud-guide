@@ -4,7 +4,7 @@ section: problemas
 slug: resposta-diferente-do-esperado
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O chat do ShieldJud utiliza inteligência artificial para analisar documentos e gerar respostas.
 
@@ -14,29 +14,27 @@ Isso normalmente está relacionado à forma como a pergunta foi feita ou às inf
 
 ---
 
-## Reformule a pergunta
+## ✍️ Reformule a pergunta
 
 Pequenas mudanças na pergunta podem melhorar significativamente a resposta.
 
 Tente formular perguntas mais específicas.
 
-Exemplo:
-
-Em vez de perguntar:
+❌ Em vez de perguntar:
 
 "Qual é a análise do processo?"
 
-Prefira algo como:
+✅ Prefira algo como:
 
 "Existem indícios de litigância abusiva neste processo?"
 
-Perguntas mais direcionadas ajudam o sistema a produzir respostas mais precisas.
+> 💡 Dica: perguntas mais direcionadas ajudam o sistema a produzir respostas mais precisas. Veja as [boas práticas de uso do chat](/artigo/boas-praticas-chat).
 
 ---
 
-## Utilize documentos da biblioteca
+## 📚 Utilize documentos da biblioteca
 
-Se houver modelos, precedentes ou orientações relevantes, considere utilizar documentos da biblioteca como contexto.
+Se houver modelos, precedentes ou orientações relevantes, considere utilizar documentos da [biblioteca](/artigo/biblioteca-no-chat) como contexto.
 
 Exemplo:
 
@@ -46,17 +44,17 @@ Isso pode ajudar o sistema a alinhar a resposta ao contexto institucional do usu
 
 ---
 
-## Verifique os documentos enviados
+## 📄 Verifique os documentos enviados
 
 O chat só pode analisar os documentos que foram enviados para o sistema.
 
 Se algum documento relevante estiver ausente, a análise pode ficar incompleta.
 
-Sempre que possível, envie todos os documentos necessários para compreender o caso.
+> ⚠️ Atenção: sempre que possível, envie todos os documentos necessários para compreender o caso.
 
 ---
 
-## Entenda os limites da inteligência artificial
+## ⚠️ Entenda os limites da inteligência artificial
 
 A inteligência artificial auxilia na análise e organização das informações, mas não substitui a avaliação jurídica do usuário.
 
