@@ -140,7 +140,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 10. INTEGRAÇÃO COM TECNOLOGIAS DE TERCEIROS
 
-10.1. O Shield poderá utilizar modelos de linguagem de terceiros, observadas as diretrizes do art. 19 e 20 da Resolução 615/2025.
+10.1. O ShieldJud poderá utilizar modelos de linguagem de terceiros, observadas as diretrizes do art. 19 e 20 da Resolução 615/2025.
 
 10.2. Caso haja uso de tecnologia externa:
 
