@@ -32,6 +32,16 @@ const ArticlePage = () => {
 
   const renderContent = (content: string) => {
     return content.split("\n").map((line, i) => {
+      if (line.trim() === "---") {
+        return <hr key={i} className="my-6 border-border" />;
+      }
+      if (line.startsWith("### ")) {
+        return (
+          <h3 key={i} className="text-lg font-display font-bold text-foreground mt-5 mb-2">
+            {line.replace("### ", "")}
+          </h3>
+        );
+      }
       if (line.startsWith("## ")) {
         return (
           <h2 key={i} className="text-xl font-display font-bold text-foreground mt-6 mb-3">
