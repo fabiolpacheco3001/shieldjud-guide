@@ -173,7 +173,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 14. DISPOSIÇÕES FINAIS
 
-14.1. A utilização do Shield implica ciência de que se trata de ferramenta de apoio analítico.
+14.1. A utilização do ShieldJud implica ciência de que se trata de ferramenta de apoio analítico.
 
 14.2. O magistrado ou operador do Direito permanece integralmente responsável pelo ato decisório.
 
