@@ -67,6 +67,9 @@
 }
 
 @layer utilities {
+  .logo-brand {
+    filter: brightness(0) saturate(100%) invert(33%) sepia(96%) saturate(7463%) hue-rotate(237deg) brightness(101%) contrast(101%);
+  }
   .section-icon-card {
     @apply relative overflow-hidden rounded-2xl bg-card p-6 transition-all duration-300 cursor-pointer border border-transparent;
     box-shadow: var(--card-shadow);
