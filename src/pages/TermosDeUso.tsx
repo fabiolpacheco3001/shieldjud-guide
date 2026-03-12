@@ -78,7 +78,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 5. DADOS PESSOAIS E CONFORMIDADE COM A LGPD
 
-5.1. O tratamento de dados pessoais observa a Lei nº 13.709/2018 (LGPD) e o Aviso de Privacidade do Shield.
+5.1. O tratamento de dados pessoais observa a Lei nº 13.709/2018 (LGPD) e o Aviso de Privacidade do ShieldJud.
 
 5.2. Softplan atua como:
 
