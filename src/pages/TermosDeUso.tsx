@@ -5,7 +5,7 @@ const versions: DocumentVersion[] = [
   {
     version: "1.0",
     date: "03/03/2026",
-    label: "Termo de Uso — Shield v1.0",
+    label: "Termo de Uso — ShieldJud v1.0",
     downloadUrl: "/docs/termos-de-uso-v1.0.pdf",
     fileType: "pdf",
   },
@@ -13,9 +13,9 @@ const versions: DocumentVersion[] = [
 
 const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
-1.1. O presente Termo regula o acesso e utilização do aplicativo Shield – IA Jurídica para Análise Processual, solução tecnológica disponibilizada pela Softplan.
+1.1. O presente Termo regula o acesso e utilização do aplicativo ShieldJud – IA Jurídica para Análise Processual, solução tecnológica disponibilizada pela Softplan.
 
-1.2. O Shield consiste em sistema baseado em técnicas de inteligência artificial destinado a apoio técnico-analítico, com funcionalidades de:
+1.2. O ShieldJud consiste em sistema baseado em técnicas de inteligência artificial destinado a apoio técnico-analítico, com funcionalidades de:
 
 - 1.2.1. leitura estruturada de processos;
 - 1.2.2. análise de admissibilidade;
@@ -25,11 +25,11 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 - 1.2.6. interação conversacional contextualizada;
 - 1.2.7. elaboração assistida de minutas.
 
-1.3. O Shield possui natureza estritamente assistiva, sendo vedada sua utilização como instrumento autônomo de tomada de decisão judicial ou administrativa.
+1.3. O ShieldJud possui natureza estritamente assistiva, sendo vedada sua utilização como instrumento autônomo de tomada de decisão judicial ou administrativa.
 
 ## 2. ADERÊNCIA REGULATÓRIA E GOVERNANÇA DE IA
 
-2.1. O Shield foi desenvolvido em conformidade com a Resolução CNJ nº 615/2025, observando especialmente:
+2.1. O ShieldJud foi desenvolvido em conformidade com a Resolução CNJ nº 615/2025, observando especialmente:
 
 - 2.1.1. supervisão humana efetiva;
 - 2.1.2. transparência e explicabilidade;
@@ -54,7 +54,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 3. CATEGORIZAÇÃO DE RISCO E USO ADEQUADO
 
-3.1. O Shield destina-se a atividades de suporte à decisão, podendo ser enquadrado como ferramenta de risco controlado, conforme critérios da Resolução 615/2025.
+3.1. O ShieldJud destina-se a atividades de suporte à decisão, podendo ser enquadrado como ferramenta de risco controlado, conforme critérios da Resolução 615/2025.
 
 3.2. É expressamente vedado:
 
@@ -65,7 +65,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 4. SUPERVISÃO HUMANA OBRIGATÓRIA
 
-4.1. Toda utilização do Shield deve observar supervisão humana contínua.
+4.1. Toda utilização do ShieldJud deve observar supervisão humana contínua.
 
 4.2. O usuário compromete-se a:
 
@@ -78,7 +78,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 5. DADOS PESSOAIS E CONFORMIDADE COM A LGPD
 
-5.1. O tratamento de dados pessoais observa a Lei nº 13.709/2018 (LGPD) e o Aviso de Privacidade do Shield.
+5.1. O tratamento de dados pessoais observa a Lei nº 13.709/2018 (LGPD) e o Aviso de Privacidade do ShieldJud.
 
 5.2. Softplan atua como:
 
@@ -114,7 +114,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 7. PROPRIEDADE INTELECTUAL
 
-7.1. São de titularidade exclusiva da Softplan: código-fonte; arquitetura; modelos algorítmicos; marca Shield; documentação técnica.
+7.1. São de titularidade exclusiva da Softplan: código-fonte; arquitetura; modelos algorítmicos; marca ShieldJud; documentação técnica.
 
 7.2. O usuário mantém titularidade sobre: documentos inseridos; dados próprios; minutas elaboradas a partir de suas interações.
 
@@ -140,7 +140,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 10. INTEGRAÇÃO COM TECNOLOGIAS DE TERCEIROS
 
-10.1. O Shield poderá utilizar modelos de linguagem de terceiros, observadas as diretrizes do art. 19 e 20 da Resolução 615/2025.
+10.1. O ShieldJud poderá utilizar modelos de linguagem de terceiros, observadas as diretrizes do art. 19 e 20 da Resolução 615/2025.
 
 10.2. Caso haja uso de tecnologia externa:
 
@@ -173,15 +173,15 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 14. DISPOSIÇÕES FINAIS
 
-14.1. A utilização do Shield implica ciência de que se trata de ferramenta de apoio analítico.
+14.1. A utilização do ShieldJud implica ciência de que se trata de ferramenta de apoio analítico.
 
 14.2. O magistrado ou operador do Direito permanece integralmente responsável pelo ato decisório.
 
 14.3. Estes Termos são regidos pela legislação brasileira.
 
-14.4. Este Termos de Uso regulam o acesso e utilização do aplicativo Shield, disponibilizado no marketplace da Softplan.
+14.4. Este Termos de Uso regulam o acesso e utilização do aplicativo ShieldJud, disponibilizado no marketplace da Softplan.
 
-14.5. Ao acessar, contratar ou utilizar o Shield, o usuário declara que leu, compreendeu e concorda integralmente com estes Termos.
+14.5. Ao acessar, contratar ou utilizar o ShieldJud, o usuário declara que leu, compreendeu e concorda integralmente com estes Termos.
 
 14.6. Caso não concorde com qualquer disposição aqui prevista, o usuário não deverá utilizar o aplicativo.
 
@@ -191,7 +191,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 const TermosDeUso = () => (
   <LegalDocumentPage
-    title="Termo de Uso — Shield"
+    title="Termo de Uso — ShieldJud"
     lastUpdate="03 de março de 2026"
     currentVersion="1.0"
     content={content}

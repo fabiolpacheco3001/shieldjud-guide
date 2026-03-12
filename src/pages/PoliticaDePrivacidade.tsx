@@ -5,7 +5,7 @@ const versions: DocumentVersion[] = [
   {
     version: "1.0",
     date: "26/02/2026",
-    label: "Aviso de Privacidade — Shield v1.0",
+    label: "Aviso de Privacidade — ShieldJud v1.0",
     downloadUrl: "/docs/aviso-de-privacidade-v1.0.pdf",
     fileType: "pdf",
   },
@@ -13,17 +13,17 @@ const versions: DocumentVersion[] = [
 
 const content = `## 1. OBJETIVO
 
-1.1. O presente Aviso de Privacidade tem por finalidade demonstrar o compromisso da Softplan Planejamento e Sistemas S.A. ("Softplan"), na qualidade de Controladora de Dados Pessoais, com a privacidade e a proteção dos dados pessoais tratados no contexto da utilização do Shield — IA Jurídica para Análise Processual ("Plataforma").
+1.1. O presente Aviso de Privacidade tem por finalidade demonstrar o compromisso da Softplan Planejamento e Sistemas S.A. ("Softplan"), na qualidade de Controladora de Dados Pessoais, com a privacidade e a proteção dos dados pessoais tratados no contexto da utilização do ShieldJud — IA Jurídica para Análise Processual ("Plataforma").
 
-1.2. O Shield é uma solução de Inteligência Artificial desenvolvida para apoiar magistrados, assessores e gabinetes na análise técnica inicial de processos judiciais, promovendo maior clareza, consistência e previsibilidade decisória desde o primeiro contato com o processo. O Shield realiza leitura estruturada do processo, organiza informações e oferece suporte analítico com base em três eixos principais: admissibilidade, litigância abusiva e convergência com precedentes.
+1.2. O ShieldJud é uma solução de Inteligência Artificial desenvolvida para apoiar magistrados, assessores e gabinetes na análise técnica inicial de processos judiciais, promovendo maior clareza, consistência e previsibilidade decisória desde o primeiro contato com o processo. O ShieldJud realiza leitura estruturada do processo, organiza informações e oferece suporte analítico com base em três eixos principais: admissibilidade, litigância abusiva e convergência com precedentes.
 
 1.3. Este Aviso de Privacidade foi elaborado em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD - Lei 13.709/18) e a Resolução CNJ n° 615/2025, observando os princípios de explicabilidade, rastreabilidade, auditabilidade e supervisão humana.
 
 1.4. Em caso de dúvida, ou para solicitação de esclarecimentos adicionais, colocamos à disposição nosso time de Privacidade de Dados Pessoais através do canal: **psi@softplan.com.br**
 
-## 2. COMO O SHIELD FUNCIONA?
+## 2. COMO O SHIELDJUD FUNCIONA?
 
-2.1. O Shield é uma plataforma desenvolvida pela Softplan para apoiar magistrados, assessores e servidores autorizados na análise técnica inicial de processos judiciais ("Usuários") por meio de recursos de Inteligência Artificial. Ao utilizar a Plataforma, você realiza seu cadastro com seus dados e, no exercício de suas atribuições, poderá inserir petições, documentos e demais informações processuais para que o sistema organize o conteúdo em estrutura lógica, identifique padrões relevantes, verifique aderência a precedentes e auxilie na elaboração de minutas.
+2.1. O ShieldJud é uma plataforma desenvolvida pela Softplan para apoiar magistrados, assessores e servidores autorizados na análise técnica inicial de processos judiciais ("Usuários") por meio de recursos de Inteligência Artificial. Ao utilizar a Plataforma, você realiza seu cadastro com seus dados e, no exercício de suas atribuições, poderá inserir petições, documentos e demais informações processuais para que o sistema organize o conteúdo em estrutura lógica, identifique padrões relevantes, verifique aderência a precedentes e auxilie na elaboração de minutas.
 
 2.2. A inserção dos documentos pode ocorrer tanto por meio do acesso à Plataforma em sua versão web quanto por meio de extensão habilitada no navegador. Em qualquer hipótese, o envio de arquivos depende sempre de ação voluntária do Usuário, que seleciona e autoriza quais documentos serão incluídos para processamento na ferramenta. Cabe exclusivamente ao Usuário avaliar a adequação dos arquivos inseridos, bem como gerenciar posteriormente sua permanência, atualização ou exclusão no ambiente da Plataforma, observando as normas aplicáveis, especialmente em relação a dados pessoais e informações protegidas por sigilo.
 
@@ -122,7 +122,7 @@ const content = `## 1. OBJETIVO
 
 const PoliticaDePrivacidade = () => (
   <LegalDocumentPage
-    title="Aviso de Privacidade de Usuários — Shield"
+    title="Aviso de Privacidade de Usuários — ShieldJud"
     lastUpdate="26 de fevereiro de 2026"
     currentVersion="1.0"
     content={content}
