@@ -1,4 +1,3 @@
-import matter from "gray-matter";
 import type { Article } from "@/data/helpCenterData";
 
 // Import all .md files from the content/articles directory
@@ -8,14 +7,45 @@ const markdownModules = import.meta.glob("/src/content/articles/**/*.md", {
   eager: true,
 });
 
+// Simple browser-compatible front-matter parser (no Node.js dependencies)
+function parseFrontMatter(raw: string): { data: Record<string, unknown>; content: string } {
+  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+  if (!match) return { data: {}, content: raw };
+
+  const frontMatter = match[1];
+  const content = match[2];
+  const data: Record<string, unknown> = {};
+
+  for (const line of frontMatter.split(/\r?\n/)) {
+    const colonIndex = line.indexOf(":");
+    if (colonIndex === -1) continue;
+    const key = line.slice(0, colonIndex).trim();
+    let value: unknown = line.slice(colonIndex + 1).trim();
+    // Handle booleans
+    if (value === "true") value = true;
+    else if (value === "false") value = false;
+    // Handle arrays like [a, b, c]
+    else if (typeof value === "string" && value.startsWith("[") && value.endsWith("]")) {
+      value = value.slice(1, -1).split(",").map((s) => s.trim().replace(/^["']|["']$/g, ""));
+    }
+    // Remove surrounding quotes
+    else if (typeof value === "string" && ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'")))) {
+      value = value.slice(1, -1);
+    }
+    data[key] = value;
+  }
+
+  return { data, content };
+}
+
 function parseArticle(raw: string): Article | null {
   try {
-    const { data, content } = matter(raw);
+    const { data, content } = parseFrontMatter(raw);
     if (!data.title || !data.section || !data.slug) return null;
     return {
-      title: data.title,
-      section: data.section,
-      slug: data.slug,
+      title: data.title as string,
+      section: data.section as string,
+      slug: data.slug as string,
       content: content.trim(),
       promoted: data.promoted === true,
       keywords: Array.isArray(data.keywords) ? data.keywords : [],
