@@ -131,6 +131,15 @@ const ArticlePage = () => {
         );
       }
 
+      if (/^# [^#]/.test(line)) {
+        const text = line.replace(/^# /, "");
+        return (
+          <p key={i} className="text-foreground font-bold text-lg leading-relaxed mt-4 mb-1.5">
+            {renderInline(text)}
+          </p>
+        );
+      }
+
       if (line.startsWith("## ")) {
         const text = line.replace("## ", "");
         const id = text.toLowerCase().replace(/[^\w\sà-ú]/g, "").replace(/\s+/g, "-");
