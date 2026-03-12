@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import HeroSearch from "@/components/HeroSearch";
 import SectionCard from "@/components/SectionCard";
 import PromotedArticles from "@/components/PromotedArticles";
+import MostAccessedArticles from "@/components/MostAccessedArticles";
 import HelpCenterHeader from "@/components/HelpCenterHeader";
 import HelpCenterFooter from "@/components/HelpCenterFooter";
 import { sections } from "@/data/helpCenterData";
@@ -73,6 +74,7 @@ const Index = () => {
             </div>
           </div>
           <PromotedArticles />
+          <MostAccessedArticles />
         </>
       )}
 
