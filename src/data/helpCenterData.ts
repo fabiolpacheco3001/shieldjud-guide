@@ -35,7 +35,7 @@ export const sections: Section[] = [
     icon: "Globe",
   },
   {
-    id: "biblioteca-usuario",
+    id: "biblioteca",
     title: "Biblioteca do Usuário",
     description: "Organize, busque e gerencie seus processos analisados.",
     icon: "BookOpen",
