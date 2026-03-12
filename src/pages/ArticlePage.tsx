@@ -1,14 +1,20 @@
 import { useParams, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { ArrowLeft } from "lucide-react";
 import HelpCenterHeader from "@/components/HelpCenterHeader";
 import HelpCenterFooter from "@/components/HelpCenterFooter";
 import { getSectionById } from "@/data/helpCenterData";
 import { getArticleBySlug } from "@/lib/articleLoader";
+import { trackArticleView } from "@/lib/articleViews";
 
 const ArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
   const article = getArticleBySlug(slug || "");
+
+  useEffect(() => {
+    if (slug) trackArticleView(slug);
+  }, [slug]);
 
   if (!article) {
     return (
