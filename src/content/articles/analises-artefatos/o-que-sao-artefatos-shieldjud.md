@@ -1,6 +1,6 @@
 ---
 title: O que são os artefatos do ShieldJud
-section: analises-e-artefatos
+section: analises-artefatos
 slug: artefatos-shieldjud
 ---
 
