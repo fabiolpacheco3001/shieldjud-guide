@@ -1,103 +1,63 @@
 ---
-title: O que é a biblioteca de documentos
-section: biblioteca
-slug: o-que-e-biblioteca
+title: Não consigo enviar um processo para análise
+section: problemas
+slug: nao-consigo-enviar-processo
 ---
 
 ## Visão geral
 
-A biblioteca do ShieldJud permite que o usuário armazene documentos próprios para utilizá-los como **contexto adicional nas interações com o chat**.
+Para iniciar uma análise no ShieldJud é necessário enviar a **petição inicial** e, opcionalmente, os **documentos anexos do processo**.
 
-Esses documentos podem representar referências institucionais ou orientações utilizadas no trabalho do gabinete ou da unidade judicial.
-
-Entre os exemplos mais comuns estão:
-
-- modelos de decisão  
-- enunciados ou orientações internas  
-- jurisprudência relevante  
-- IRDRs ou precedentes importantes  
-- procedimentos ou diretrizes institucionais
-
-A biblioteca permite que esses materiais sejam incorporados às análises realizadas pelo chat, sem alterar os dados do processo analisado.
+Se o envio não for concluído, normalmente o problema está relacionado a formato de arquivo, tamanho do documento ou ausência da petição inicial.
 
 ---
 
-## Objetivo da biblioteca
+## Verifique se a petição inicial foi enviada
 
-A biblioteca foi criada para permitir que o usuário utilize **referenciais próprios** durante as interações com o sistema.
+A petição inicial é **obrigatória** para iniciar uma análise.
 
-Isso significa que o chat pode considerar documentos institucionais ou orientações internas ao gerar análises ou textos.
+O sistema não cria uma nova análise se apenas documentos anexos forem enviados.
 
-Essa abordagem permite:
-
-- alinhar as respostas do sistema ao contexto do gabinete  
-- reutilizar modelos ou referências institucionais  
-- orientar a geração de conteúdo com base em documentos específicos
-
-A biblioteca funciona como uma camada de **contexto assistido**, e não como um repositório completo de gestão documental.
+Caso esteja recebendo erro no envio, confirme se o arquivo da petição inicial foi selecionado.
 
 ---
 
-## Como a biblioteca funciona
+## Verifique o formato do arquivo
 
-Os documentos da biblioteca podem ser utilizados pelo chat sempre que o usuário desejar incorporá-los à análise.
+O ShieldJud aceita apenas arquivos em **formato PDF** para envio de processos.
 
-Existem duas formas principais de utilização.
-
-### Referência por linguagem natural
-
-O usuário pode mencionar um documento da biblioteca diretamente na conversa.
-
-Exemplo:
-
-"Considere o modelo de decisão salvo na minha biblioteca."
-
-O sistema identifica o documento e passa a utilizá-lo como referência na interação.
+Caso o documento esteja em outro formato, será necessário convertê-lo para PDF antes do envio.
 
 ---
 
-### Seleção manual no chat
+## Verifique o tamanho dos arquivos
 
-O usuário também pode selecionar explicitamente quais documentos da biblioteca deseja incluir como contexto antes de enviar uma pergunta ao chat.
+Arquivos muito grandes podem impedir o envio.
 
-Nesse caso, os documentos selecionados passam a ser considerados na análise daquela interação.
+Se o sistema indicar erro de tamanho:
 
----
-
-## Regra de uso da biblioteca
-
-Os documentos da biblioteca **nunca são utilizados automaticamente pelo sistema**.
-
-Eles só são considerados quando existe um comando explícito do usuário, que pode ocorrer por:
-
-- referência em linguagem natural  
-- seleção manual no chat
-
-Essa regra garante previsibilidade, rastreabilidade e controle sobre o uso de contexto adicional.
+- tente reduzir o tamanho do PDF  
+- verifique se há anexos muito grandes  
+- considere dividir documentos muito extensos
 
 ---
 
-## Limites da versão inicial
+## Verifique o número de documentos anexos
 
-Na Versão 1 da biblioteca, o foco é simplicidade e controle técnico.
+Existe um limite de anexos por processo.
 
-Por isso, algumas funcionalidades ainda não estão disponíveis, como:
+Se esse limite for ultrapassado, o sistema poderá bloquear o envio.
 
-- organização por pastas  
-- versionamento de documentos  
-- upload automático de tribunais  
-- busca semântica avançada  
-- compartilhamento entre gabinetes distintos  
-- OCR ou processamento pesado de documentos
-
-Essas capacidades poderão ser avaliadas em evoluções futuras da plataforma.
+Nesse caso, revise os documentos selecionados e envie apenas os anexos necessários para a análise.
 
 ---
 
-## Próximos passos
+## Quando o problema persistir
 
-Para entender como utilizar a biblioteca no dia a dia, consulte também os seguintes artigos:
+Se o envio continuar falhando, tente:
 
-- Como adicionar documentos à biblioteca  
-- Como usar documentos da biblioteca no chat  
-- Limites técnicos da biblioteca
+- atualizar a página  
+- reenviar os arquivos  
+- verificar se o arquivo PDF está íntegro
+
+Caso o problema persista, entre em contato com o suporte da plataforma.
