@@ -4,11 +4,13 @@ import { icons } from "lucide-react";
 import HelpCenterHeader from "@/components/HelpCenterHeader";
 import HelpCenterFooter from "@/components/HelpCenterFooter";
 import { getSectionById } from "@/data/helpCenterData";
+import { getArticlesBySection } from "@/lib/articleLoader";
 
 const SectionPage = () => {
   const { sectionId } = useParams<{ sectionId: string }>();
   const navigate = useNavigate();
   const section = getSectionById(sectionId || "");
+  const articles = getArticlesBySection(sectionId || "");
 
   if (!section) {
     return (
@@ -48,21 +50,25 @@ const SectionPage = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-3">
-          {section.articles.map((article) => (
-            <button
-              key={article.slug}
-              onClick={() => navigate(`/artigo/${article.slug}`)}
-              className="flex items-center justify-between p-5 rounded-xl bg-card border border-border hover:border-primary/20 transition-all group text-left"
-              style={{ boxShadow: "var(--card-shadow)" }}
-            >
-              <p className="font-medium text-foreground group-hover:text-secondary-foreground transition-colors">
-                {article.title}
-              </p>
-              <ArrowRight size={18} className="text-muted-foreground group-hover:text-secondary-foreground transition-colors flex-shrink-0 ml-4" />
-            </button>
-          ))}
-        </div>
+        {articles.length === 0 ? (
+          <p className="text-muted-foreground">Nenhum artigo disponível nesta seção ainda.</p>
+        ) : (
+          <div className="flex flex-col gap-3">
+            {articles.map((article) => (
+              <button
+                key={article.slug}
+                onClick={() => navigate(`/artigo/${article.slug}`)}
+                className="flex items-center justify-between p-5 rounded-xl bg-card border border-border hover:border-primary/20 transition-all group text-left"
+                style={{ boxShadow: "var(--card-shadow)" }}
+              >
+                <p className="font-medium text-foreground group-hover:text-secondary-foreground transition-colors">
+                  {article.title}
+                </p>
+                <ArrowRight size={18} className="text-muted-foreground group-hover:text-secondary-foreground transition-colors flex-shrink-0 ml-4" />
+              </button>
+            ))}
+          </div>
+        )}
       </div>
       <div className="flex-1" />
       <HelpCenterFooter />

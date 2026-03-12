@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import { Star, ArrowRight } from "lucide-react";
-import { getPromotedArticles } from "@/data/helpCenterData";
+import { getPromotedArticles } from "@/lib/articleLoader";
 
 const PromotedArticles = () => {
   const promoted = getPromotedArticles();
   const navigate = useNavigate();
+
+  if (promoted.length === 0) return null;
 
   return (
     <div className="w-full py-12 px-4">

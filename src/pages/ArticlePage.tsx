@@ -2,7 +2,8 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import HelpCenterHeader from "@/components/HelpCenterHeader";
 import HelpCenterFooter from "@/components/HelpCenterFooter";
-import { getArticleBySlug, getSectionById } from "@/data/helpCenterData";
+import { getSectionById } from "@/data/helpCenterData";
+import { getArticleBySlug } from "@/lib/articleLoader";
 
 const ArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -23,7 +24,6 @@ const ArticlePage = () => {
 
   const section = getSectionById(article.section);
 
-  // Simple markdown-like rendering
   const renderContent = (content: string) => {
     return content.split("\n").map((line, i) => {
       if (line.startsWith("## ")) {
@@ -39,7 +39,7 @@ const ArticlePage = () => {
           return (
             <li key={i} className="text-foreground mb-2 ml-4 list-disc">
               <strong>{match[1]}</strong>
-              {match[2] && <>: {match[2]}</>}
+              {match[2] && <>{match[2].startsWith(":") ? match[2] : `: ${match[2]}`}</>}
             </li>
           );
         }
@@ -53,7 +53,6 @@ const ArticlePage = () => {
       }
       if (/^\d+\.\s/.test(line)) {
         const text = line.replace(/^\d+\.\s/, "");
-        // Handle bold within numbered list
         const parts = text.split(/\*\*(.+?)\*\*/g);
         return (
           <li key={i} className="text-foreground mb-2 ml-4 list-decimal">
@@ -62,7 +61,6 @@ const ArticlePage = () => {
         );
       }
       if (line.trim() === "") return <div key={i} className="h-3" />;
-      // Handle inline bold
       const parts = line.split(/\*\*(.+?)\*\*/g);
       return (
         <p key={i} className="text-foreground leading-relaxed mb-2">
