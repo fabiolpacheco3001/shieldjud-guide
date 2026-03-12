@@ -4,7 +4,7 @@ section: captura-processos
 slug: enviar-processo-analise
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O primeiro passo para utilizar o ShieldJud é enviar os documentos do processo para análise.
 
@@ -14,11 +14,11 @@ O objetivo dessa etapa é garantir que os documentos do processo sejam recebidos
 
 ---
 
-## Estrutura de um processo no ShieldJud
+## 📂 Estrutura de um processo no ShieldJud
 
 Cada processo enviado para o ShieldJud é composto por dois tipos de documentos.
 
-### Petição inicial
+### 📄 Petição inicial
 
 A petição inicial é o documento principal da análise.
 
@@ -35,7 +35,7 @@ A petição inicial deve ser enviada em formato **PDF**.
 
 ---
 
-### Anexos do processo
+### 📎 Anexos do processo
 
 Além da petição inicial, o usuário pode enviar documentos anexos.
 
@@ -58,7 +58,7 @@ Os anexos podem ser enviados:
 
 ---
 
-## Como realizar o upload do processo
+## 📤 Como realizar o upload do processo
 
 O envio de um processo segue um fluxo simples.
 
@@ -74,9 +74,7 @@ Isso abrirá a tela de envio de documentos.
 
 Na área indicada para **Petição inicial**, selecione ou arraste o arquivo PDF correspondente.
 
-Essa etapa é obrigatória.
-
-O sistema não permitirá criar um processo sem a petição inicial.
+> ⚠️ Atenção: essa etapa é obrigatória. O sistema não permitirá criar um processo sem a petição inicial.
 
 ---
 
@@ -111,7 +109,7 @@ Nesse momento o processo será registrado no sistema e seguirá para processamen
 
 ---
 
-## Regras importantes sobre o upload
+## 📌 Regras importantes sobre o upload
 
 Algumas regras importantes se aplicam ao envio de processos.
 
@@ -139,17 +137,11 @@ Sem ela, o sistema não inicia a análise.
 
 ### Upload não pode ser alterado
 
-Após a criação da transação do processo:
-
-- não é possível adicionar novos documentos  
-- não é possível remover arquivos  
-- não é possível editar o envio realizado  
-
-Caso seja necessário corrigir documentos, o processo deverá ser reenviado.
+> ⚠️ Atenção: após a criação da transação do processo, não é possível adicionar, remover ou editar arquivos. Caso seja necessário corrigir documentos, o processo deverá ser reenviado.
 
 ---
 
-## Por que o ShieldJud utiliza upload manual
+## 🤔 Por que o ShieldJud utiliza upload manual
 
 Nesta versão do produto, o upload manual foi adotado para garantir:
 
@@ -159,9 +151,11 @@ Nesta versão do produto, o upload manual foi adotado para garantir:
 
 Isso permite que o sistema funcione em diferentes contextos institucionais sem depender de acessos técnicos aos sistemas judiciais.
 
+> 💡 Dica: para capturar processos diretamente de portais judiciais, confira a [extensão do Chrome](/artigo/instalar-extensao).
+
 ---
 
-## Segurança e rastreabilidade
+## 🔒 Segurança e rastreabilidade
 
 Os documentos enviados são armazenados de forma segura e associados à transação criada.
 
@@ -177,10 +171,10 @@ Esses princípios estão alinhados às diretrizes da **Resolução CNJ nº 615/2
 
 ---
 
-## Próximo passo
+## 📚 Próximo passo
 
 Depois que o processo é enviado, o ShieldJud inicia a análise dos documentos.
 
 Para entender como essa análise funciona, consulte o artigo:
 
-**Como o ShieldJud analisa um processo.**
+- [Como o ShieldJud analisa um processo](/artigo/como-funciona-analise-processo-shieldjud)

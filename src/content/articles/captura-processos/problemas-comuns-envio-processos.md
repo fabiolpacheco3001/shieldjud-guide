@@ -4,7 +4,7 @@ section: captura-processos
 slug: problemas-comuns-envio-processos
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O envio de documentos para análise no ShieldJud é um processo simples, mas alguns problemas podem ocorrer durante o upload ou na preparação dos arquivos.
 
@@ -12,7 +12,7 @@ Abaixo estão as situações mais comuns e como resolvê-las.
 
 ---
 
-## A petição inicial não foi enviada
+## ❌ A petição inicial não foi enviada
 
 A petição inicial é obrigatória para criar um processo no ShieldJud.
 
@@ -24,7 +24,7 @@ Certifique-se de enviar um arquivo PDF contendo a **petição inicial completa**
 
 ---
 
-## Os documentos não estão em formato PDF
+## 📎 Os documentos não estão em formato PDF
 
 O ShieldJud aceita documentos exclusivamente no formato **PDF**.
 
@@ -42,7 +42,7 @@ Converta os documentos para PDF antes de iniciar o upload.
 
 ---
 
-## Arquivos ilegíveis ou digitalizados com baixa qualidade
+## 👁️ Arquivos ilegíveis ou digitalizados com baixa qualidade
 
 Documentos com baixa qualidade de digitalização podem dificultar a leitura automatizada.
 
@@ -55,13 +55,11 @@ Problemas comuns incluem:
 
 ### Como resolver
 
-Sempre que possível, utilize documentos gerados digitalmente.
-
-Se o documento for digitalizado, verifique se o texto está claramente legível antes de enviá-lo.
+> 💡 Dica: sempre que possível, utilize documentos gerados digitalmente. Se o documento for digitalizado, verifique se o texto está claramente legível antes de enviá-lo.
 
 ---
 
-## Muitos anexos desnecessários
+## 📦 Muitos anexos desnecessários
 
 Enviar um grande número de documentos irrelevantes pode tornar a análise menos eficiente.
 
@@ -73,7 +71,7 @@ Inclua apenas os documentos que realmente ajudam a compreender o caso.
 
 ---
 
-## Tentativa de alterar documentos após o upload
+## 🔒 Tentativa de alterar documentos após o upload
 
 Após o envio de um processo, não é possível:
 
@@ -85,11 +83,11 @@ Isso ocorre porque cada envio cria uma **transação de análise única** dentro
 
 ### Como resolver
 
-Caso seja necessário alterar documentos, será necessário enviar o processo novamente.
+> ⚠️ Atenção: caso seja necessário alterar documentos, será necessário enviar o processo novamente.
 
 ---
 
-## Upload incompleto de documentos
+## 📡 Upload incompleto de documentos
 
 Em alguns casos o upload pode ser interrompido antes da conclusão.
 
@@ -105,7 +103,7 @@ Verifique se todos os arquivos aparecem na lista de documentos antes de iniciar 
 
 ---
 
-## Envio de documentos com restrições legais
+## ⚖️ Envio de documentos com restrições legais
 
 O ShieldJud não deve ser utilizado para análise de documentos que possuam restrições legais de compartilhamento.
 
@@ -127,17 +125,14 @@ O usuário é responsável por garantir que os documentos enviados estejam adequ
 
 ---
 
-## Ainda está com dificuldades?
+## ❓ Ainda está com dificuldades?
 
 Se o problema persistir após revisar os pontos acima, recomendamos:
 
 - verificar novamente os arquivos enviados  
 - tentar realizar o upload novamente  
-- revisar as boas práticas de preparação de documentos
+- revisar as [boas práticas de preparação de documentos](/artigo/boas-praticas-preparar-documentos)
 
-Você também pode consultar os artigos:
+Você também pode consultar:
 
-- Como enviar um processo para análise  
-- Boas práticas para preparar documentos antes do upload
-
-Esses materiais explicam em detalhes o funcionamento da etapa de captura de processos.
+- [Como enviar um processo para análise](/artigo/enviar-processo-analise)

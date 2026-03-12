@@ -4,7 +4,7 @@ section: biblioteca
 slug: o-que-e-biblioteca
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 A biblioteca do ShieldJud permite que o usuário armazene documentos próprios para utilizá-los como **contexto adicional nas interações com o chat**.
 
@@ -18,11 +18,11 @@ Entre os exemplos mais comuns estão:
 - IRDRs ou precedentes importantes  
 - procedimentos ou diretrizes institucionais
 
-A biblioteca permite que esses materiais sejam incorporados às análises realizadas pelo chat, sem alterar os dados do processo analisado.
+A biblioteca permite que esses materiais sejam incorporados às análises realizadas pelo [chat](/artigo/chat-shieldjud), sem alterar os dados do processo analisado.
 
 ---
 
-## Objetivo da biblioteca
+## 🎯 Objetivo da biblioteca
 
 A biblioteca foi criada para permitir que o usuário utilize **referenciais próprios** durante as interações com o sistema.
 
@@ -38,13 +38,13 @@ A biblioteca funciona como uma camada de **contexto assistido**, e não como um 
 
 ---
 
-## Como a biblioteca funciona
+## ⚙️ Como a biblioteca funciona
 
 Os documentos da biblioteca podem ser utilizados pelo chat sempre que o usuário desejar incorporá-los à análise.
 
 Existem duas formas principais de utilização.
 
-### Referência por linguagem natural
+### 💬 Referência por linguagem natural
 
 O usuário pode mencionar um documento da biblioteca diretamente na conversa.
 
@@ -56,7 +56,7 @@ O sistema identifica o documento e passa a utilizá-lo como referência na inter
 
 ---
 
-### Seleção manual no chat
+### 🖱️ Seleção manual no chat
 
 O usuário também pode selecionar explicitamente quais documentos da biblioteca deseja incluir como contexto antes de enviar uma pergunta ao chat.
 
@@ -64,9 +64,9 @@ Nesse caso, os documentos selecionados passam a ser considerados na análise daq
 
 ---
 
-## Regra de uso da biblioteca
+## 📌 Regra de uso da biblioteca
 
-Os documentos da biblioteca **nunca são utilizados automaticamente pelo sistema**.
+> ⚠️ Atenção: os documentos da biblioteca **nunca são utilizados automaticamente pelo sistema**. Eles só são considerados quando existe um comando explícito do usuário.
 
 Eles só são considerados quando existe um comando explícito do usuário, que pode ocorrer por:
 
@@ -77,7 +77,7 @@ Essa regra garante previsibilidade, rastreabilidade e controle sobre o uso de co
 
 ---
 
-## Limites da versão inicial
+## 🔒 Limites da versão inicial
 
 Na Versão 1 da biblioteca, o foco é simplicidade e controle técnico.
 
@@ -94,10 +94,10 @@ Essas capacidades poderão ser avaliadas em evoluções futuras da plataforma.
 
 ---
 
-## Próximos passos
+## 📚 Próximos passos
 
 Para entender como utilizar a biblioteca no dia a dia, consulte também os seguintes artigos:
 
-- Como adicionar documentos à biblioteca  
-- Como usar documentos da biblioteca no chat  
-- Limites técnicos da biblioteca
+- [Como adicionar documentos à biblioteca](/artigo/adicionar-documentos-biblioteca)  
+- [Como usar documentos da biblioteca no chat](/artigo/biblioteca-no-chat)  
+- [Limites técnicos da biblioteca](/artigo/limites-tecnicos-biblioteca)

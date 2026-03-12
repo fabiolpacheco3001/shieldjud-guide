@@ -4,7 +4,7 @@ section: biblioteca
 slug: boas-praticas-biblioteca
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 A biblioteca do ShieldJud permite armazenar documentos que podem ser utilizados como **contexto adicional nas interações com o chat**.
 
@@ -14,11 +14,11 @@ Quando bem construída, a biblioteca ajuda o sistema a produzir respostas mais a
 - entendimentos institucionais  
 - modelos decisórios utilizados na unidade
 
-Por esse motivo, é recomendável selecionar cuidadosamente quais documentos serão adicionados.
+> 💡 Dica: selecionar cuidadosamente os documentos da biblioteca aumenta significativamente a qualidade das respostas do chat.
 
 ---
 
-## Priorize documentos que orientam decisões
+## 📋 Priorize documentos que orientam decisões
 
 A biblioteca tende a ser mais útil quando contém documentos que ajudam a orientar a análise jurídica ou a elaboração de decisões.
 
@@ -34,11 +34,11 @@ Esses materiais ajudam o chat a compreender melhor o contexto institucional em q
 
 ---
 
-## Utilize modelos que reflitam o estilo decisório do gabinete
+## ✍️ Utilize modelos que reflitam o estilo decisório do gabinete
 
 Um dos usos mais eficazes da biblioteca é armazenar **modelos de decisão utilizados na prática do gabinete**.
 
-Esses modelos podem ser utilizados como referência ao solicitar a elaboração de minutas no chat.
+Esses modelos podem ser utilizados como referência ao solicitar a [elaboração de minutas](/artigo/elaboracao-assistida-minutas) no chat.
 
 Exemplo de solicitação:
 
@@ -48,7 +48,7 @@ Isso permite alinhar a estrutura e o estilo da minuta com os padrões já utiliz
 
 ---
 
-## Inclua precedentes ou entendimentos relevantes
+## ⚖️ Inclua precedentes ou entendimentos relevantes
 
 Também pode ser útil incluir documentos que representem entendimentos relevantes para determinadas matérias.
 
@@ -63,7 +63,7 @@ Esses documentos podem ajudar o chat a contextualizar melhor determinadas quest�
 
 ---
 
-## Prefira documentos objetivos e bem estruturados
+## 📝 Prefira documentos objetivos e bem estruturados
 
 Documentos mais claros e objetivos tendem a produzir melhores resultados nas interações com o chat.
 
@@ -73,11 +73,11 @@ Sempre que possível, prefira materiais que:
 - contenham linguagem jurídica objetiva  
 - sejam diretamente aplicáveis à prática decisória
 
-Documentos muito extensos ou pouco estruturados podem reduzir a eficácia do contexto fornecido.
+> ⚠️ Atenção: documentos muito extensos ou pouco estruturados podem reduzir a eficácia do contexto fornecido.
 
 ---
 
-## Evite utilizar a biblioteca como repositório geral de documentos
+## 🚫 Evite utilizar a biblioteca como repositório geral de documentos
 
 A biblioteca não foi projetada para funcionar como um sistema completo de gestão documental.
 
@@ -87,7 +87,7 @@ Por esse motivo, recomenda-se evitar o uso da biblioteca para armazenar grandes 
 
 ---
 
-## Atualize a biblioteca quando necessário
+## 🔄 Atualize a biblioteca quando necessário
 
 Caso algum documento deixe de refletir a prática atual do gabinete ou do tribunal, recomenda-se:
 
@@ -98,7 +98,7 @@ Isso ajuda a manter a biblioteca alinhada às práticas mais recentes.
 
 ---
 
-## Benefícios de uma biblioteca bem construída
+## ✅ Benefícios de uma biblioteca bem construída
 
 Uma biblioteca organizada e relevante pode melhorar significativamente a qualidade das interações com o chat.
 
