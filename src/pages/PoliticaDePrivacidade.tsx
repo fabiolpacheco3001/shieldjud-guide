@@ -122,7 +122,7 @@ const content = `## 1. OBJETIVO
 
 const PoliticaDePrivacidade = () => (
   <LegalDocumentPage
-    title="Aviso de Privacidade de Usuários — Shield"
+    title="Aviso de Privacidade de Usuários — ShieldJud"
     lastUpdate="26 de fevereiro de 2026"
     currentVersion="1.0"
     content={content}
