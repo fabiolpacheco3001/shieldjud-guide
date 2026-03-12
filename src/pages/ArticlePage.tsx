@@ -202,7 +202,7 @@ const ArticlePage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <HelpCenterHeader />
-      <div className="container max-w-3xl mx-auto py-10 px-4">
+      <div className="container max-w-4xl mx-auto py-10 px-4">
         <button
           onClick={() => (section ? navigate(`/secao/${section.id}`) : navigate("/"))}
           className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-8"
