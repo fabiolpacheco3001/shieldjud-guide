@@ -179,9 +179,9 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 14.3. Estes Termos são regidos pela legislação brasileira.
 
-14.4. Este Termos de Uso regulam o acesso e utilização do aplicativo Shield, disponibilizado no marketplace da Softplan.
+14.4. Este Termos de Uso regulam o acesso e utilização do aplicativo ShieldJud, disponibilizado no marketplace da Softplan.
 
-14.5. Ao acessar, contratar ou utilizar o Shield, o usuário declara que leu, compreendeu e concorda integralmente com estes Termos.
+14.5. Ao acessar, contratar ou utilizar o ShieldJud, o usuário declara que leu, compreendeu e concorda integralmente com estes Termos.
 
 14.6. Caso não concorde com qualquer disposição aqui prevista, o usuário não deverá utilizar o aplicativo.
 
