@@ -4,65 +4,43 @@ section: chat
 slug: documentos-contexto-chat
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 Durante uma conversa no Chat do ShieldJud, o usuário pode adicionar documentos adicionais para enriquecer o contexto da análise.
 
-Esses documentos funcionam como referências específicas para aquela conversa.
-
-Eles não alteram permanentemente os dados do processo, mas podem influenciar as análises realizadas dentro da sessão do chat.
+Esses documentos funcionam como referências específicas para aquela conversa e não alteram permanentemente os dados do processo.
 
 ---
 
-## Como adicionar documentos
+## 📤 Como adicionar documentos
 
-O usuário pode enviar documentos diretamente no chat utilizando a função de upload.
-
-Após o envio, o sistema passa a considerar esse documento como parte do contexto da conversa.
+O usuário pode enviar documentos diretamente no chat utilizando a função de upload. Após o envio, o sistema passa a considerá-los como parte do contexto da conversa.
 
 ---
 
-## Exemplos de uso
+## 💡 Exemplos de uso
 
-Adicionar documentos de contexto pode ser útil em diferentes situações.
+### ✅ Aplicar critérios adicionais de análise
 
-### Aplicar critérios adicionais de análise
+Exemplo: "Realize a análise de admissibilidade considerando os critérios presentes no documento anexado."
 
-O usuário pode enviar um documento contendo critérios específicos.
+### 📄 Utilizar um modelo de decisão
 
-Exemplo:
+Exemplo: "Elabore uma minuta considerando o modelo de decisão anexado."
 
-"Realize a análise de admissibilidade considerando os critérios presentes no documento anexado."
+### 🔍 Comparar processos
 
----
-
-### Utilizar um modelo de decisão
-
-Também é possível enviar modelos ou decisões paradigmáticas.
-
-Exemplo:
-
-"Elabore uma minuta considerando o modelo de decisão anexado."
+Exemplo: "Compare o processo analisado com o processo descrito no documento anexado."
 
 ---
 
-### Comparar processos
+## ⚠️ Contexto limitado à conversa
 
-O chat também pode ser utilizado para comparar documentos ou processos.
-
-Exemplo:
-
-"Compare o processo analisado com o processo descrito no documento anexado."
+Os documentos enviados durante o chat possuem efeito apenas na sessão atual. Eles não integram automaticamente os documentos permanentes do processo nem a [biblioteca do usuário](/artigo/o-que-e-biblioteca).
 
 ---
 
-## Contexto limitado à conversa
+## 📌 Próximos passos
 
-Os documentos enviados durante o chat possuem efeito apenas na sessão atual.
-
-Eles não passam automaticamente a integrar:
-
-- os documentos permanentes do processo  
-- a biblioteca do usuário
-
-Isso garante maior controle sobre o contexto utilizado em cada análise.
+- [Como usar documentos da biblioteca no chat](/artigo/biblioteca-no-chat)
+- [Boas práticas de interação com o chat](/artigo/boas-praticas-chat)

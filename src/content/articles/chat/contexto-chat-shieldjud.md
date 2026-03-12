@@ -4,67 +4,39 @@ section: chat
 slug: contexto-chat-shieldjud
 ---
 
-## Visão geral
+## 🔎 Visão geral
 
 O Chat do ShieldJud utiliza um modelo de contexto ampliado que combina documentos do processo com dados estruturados gerados pelo próprio sistema.
 
-Essa combinação permite que a inteligência artificial produza análises mais precisas e juridicamente relevantes.
+---
+
+## 📄 Documentos analisados pelo sistema
+
+Sempre que um processo é enviado para análise, o sistema passa a considerar como contexto: petição inicial, anexos enviados e documentos processuais associados.
 
 ---
 
-## Documentos analisados pelo sistema
+## 🧩 Dados estruturados do processo
 
-Sempre que um processo é enviado para análise, o sistema passa a considerar como contexto:
+Além da leitura textual, o sistema também produz dados estruturados: identificação de fatos, extração de provas, argumentos jurídicos, normas citadas e pedidos formulados.
 
-- petição inicial  
-- anexos enviados no upload  
-- documentos processuais associados
-
-Esses documentos formam a base textual da análise.
+Esses dados são utilizados na construção de [relatórios analíticos](/artigo/artefatos-shieldjud) e do [mapa de raciocínio jurídico](/artigo/mapa-raciocinio-juridico).
 
 ---
 
-## Dados estruturados do processo
+## ✅ Benefícios dos dados estruturados
 
-Além da leitura textual dos documentos, o sistema também produz dados estruturados que enriquecem a análise.
-
-Entre eles estão:
-
-- identificação de fatos  
-- extração de provas  
-- identificação de argumentos jurídicos  
-- normas citadas no processo  
-- pedidos formulados pelas partes
-
-Esses dados são utilizados na construção de artefatos como:
-
-- relatórios analíticos  
-- mapa de raciocínio jurídico
+O uso desses dados permite que o chat responda perguntas que normalmente exigiriam leitura cuidadosa de todo o processo.
 
 ---
 
-## Benefícios dos dados estruturados
+## 🔗 Integração entre análise e conversa
 
-O uso desses dados estruturados permite que o chat responda perguntas que normalmente exigiriam leitura cuidadosa de todo o processo.
-
-Por exemplo:
-
-- quais provas sustentam determinado pedido  
-- quais argumentos estão associados a cada fato  
-- quais normas foram invocadas na narrativa
-
-Essa estrutura permite uma análise mais profunda do processo.
+O chat funciona como uma camada de exploração sobre os dados produzidos pelas análises, permitindo investigar elementos, aprofundar pontos específicos e explorar relações entre provas, fatos e argumentos.
 
 ---
 
-## Integração entre análise e conversa
+## 📌 Próximos passos
 
-O chat funciona como uma camada de exploração sobre os dados produzidos pelas análises.
-
-Isso significa que o usuário pode:
-
-- investigar elementos identificados nos relatórios  
-- aprofundar pontos específicos do processo  
-- explorar relações entre provas, fatos e argumentos
-
-Essa interação permite compreender melhor o raciocínio jurídico presente no processo.
+- [Como adicionar documentos de contexto no chat](/artigo/documentos-contexto-chat)
+- [Casos de uso do chat na análise de processos](/artigo/casos-de-uso-chat-analise-processos)

@@ -10,11 +10,11 @@ A **Elaboração Assistida de Minutas** é um artefato que permite ao usuário c
 
 Diferentemente de ferramentas de geração automática de texto, este artefato opera em um **modelo assistivo e controlado**, no qual o sistema apenas redige a minuta a partir de **instruções explícitas fornecidas pelo usuário**.
 
-O objetivo é oferecer suporte na redação, mantendo **governança jurídica, previsibilidade e controle humano sobre o conteúdo decisório**.
+> ⚠️ Atenção: o sistema não gera decisões de forma autônoma. Toda redação ocorre apenas após confirmação clara do resultado pretendido pelo usuário.
 
 ---
 
-# Como o artefato funciona
+## 🔄 Como o artefato funciona
 
 O processo de elaboração da minuta ocorre por meio de um **fluxo estruturado de interação** entre o usuário e o agente conversacional.
 
@@ -25,11 +25,9 @@ Esse fluxo segue quatro etapas principais:
 3. Geração da minuta  
 4. Ciclo iterativo de revisão e aprovação  
 
-Esse modelo evita geração automática de decisões e garante que a redação ocorra **apenas após confirmação clara do resultado pretendido**.
-
 ---
 
-# Etapa 1 — Definição do escopo
+## 📋 Etapa 1 — Definição do escopo
 
 Ao clicar no artefato de **Elaboração Assistida de Minuta**, o sistema inicia automaticamente o fluxo de interação.
 
@@ -41,11 +39,11 @@ Nesse momento, o sistema solicita ao usuário informações como:
 - resultado pretendido em linhas gerais  
 - orientações específicas para a redação  
 
-Enquanto essas informações não forem confirmadas, o sistema **não inicia qualquer redação da minuta**.
+> 💡 Dica: enquanto essas informações não forem confirmadas, o sistema não inicia qualquer redação da minuta.
 
 ---
 
-# Etapa 2 — Coleta de instruções
+## 📝 Etapa 2 — Coleta de instruções
 
 Após a definição inicial do escopo, o sistema coleta progressivamente as instruções necessárias para a elaboração da minuta.
 
@@ -56,15 +54,13 @@ O usuário pode:
 - indicar pontos que devem constar na decisão  
 - anexar uma **minuta paradigma** ou modelo-base
 
-A utilização de uma minuta paradigma permite alinhar a redação ao **estilo decisório da unidade judicial**.
+> 💡 Dica: a utilização de uma minuta paradigma permite alinhar a redação ao estilo decisório da unidade judicial.
 
 ---
 
-# Etapa 3 — Geração da minuta
+## ⚙️ Etapa 3 — Geração da minuta
 
 Depois que as instruções essenciais são confirmadas, o sistema gera a primeira versão da minuta.
-
-O texto é apresentado em formato estruturado e separado da área de interação do chat.
 
 A minuta segue uma **estrutura padrão de pronunciamento judicial**, respeitando:
 
@@ -76,7 +72,7 @@ O sistema não cria fundamentos jurídicos por inferência nem altera o resultad
 
 ---
 
-# Etapa 4 — Ciclo iterativo de revisão
+## 🔁 Etapa 4 — Ciclo iterativo de revisão
 
 Após gerar a minuta, o sistema inicia um **ciclo iterativo de revisão**.
 
@@ -88,11 +84,9 @@ O usuário pode:
 
 A cada solicitação de ajuste, o sistema gera **uma nova versão controlada da minuta**, mantendo histórico das versões produzidas.
 
-Esse processo se repete até que o usuário declare explicitamente que a minuta está aprovada.
-
 ---
 
-# Aprovação final da minuta
+## ✅ Aprovação final da minuta
 
 Quando o usuário confirma que está satisfeito com o resultado, o sistema:
 
@@ -100,15 +94,11 @@ Quando o usuário confirma que está satisfeito com o resultado, o sistema:
 - registra a versão final da minuta  
 - permite exportação do documento  
 
-A aprovação final marca o encerramento do ciclo de interação.
-
 ---
 
-# Princípios de governança do artefato
+## 🛡️ Princípios de governança do artefato
 
-A Elaboração Assistida de Minutas foi projetada para operar com regras claras de governança.
-
-Entre os princípios adotados estão:
+A Elaboração Assistida de Minutas foi projetada para operar com regras claras de governança:
 
 - nenhuma redação antes da confirmação do escopo  
 - nenhuma sugestão automática de resultado decisório  
@@ -116,28 +106,29 @@ Entre os princípios adotados estão:
 - respeito às instruções fornecidas pelo usuário  
 - controle humano sobre o resultado final  
 
-Essas regras garantem que o sistema funcione como **instrumento assistivo de redação**, e não como gerador autônomo de decisões judiciais.
-
 ---
 
-# Diferença em relação a geradores automáticos de texto
+## 🔀 Diferença em relação a geradores automáticos de texto
 
-Ferramentas genéricas de IA frequentemente produzem textos completos a partir de comandos simples.
-
-A Elaboração Assistida de Minutas adota uma abordagem diferente.
-
-O sistema:
+Ferramentas genéricas de IA frequentemente produzem textos completos a partir de comandos simples. A Elaboração Assistida de Minutas adota uma abordagem diferente:
 
 - não sugere decisões  
 - não prioriza resultados  
 - não cria teses jurídicas  
 
-Ele apenas redige a minuta **com base nas instruções fornecidas pelo usuário**, respeitando o escopo previamente definido.
+Ela apenas redige a minuta **com base nas instruções fornecidas pelo usuário**.
 
 ---
 
-# Observação final
+## 📝 Observação final
 
 A Elaboração Assistida de Minutas não substitui o julgamento humano.
 
 O artefato foi desenvolvido para **auxiliar na redação de decisões**, mantendo o usuário como responsável integral pelo conteúdo jurídico produzido.
+
+---
+
+## 📌 Próximos passos
+
+- Veja os [casos de uso e boas práticas de elaboração de minutas](/artigo/elaboracao-minutas-casos-uso)
+- Conheça os [artefatos do ShieldJud](/artigo/artefatos-shieldjud)
