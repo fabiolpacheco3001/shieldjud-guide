@@ -54,7 +54,7 @@ const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
 ## 3. CATEGORIZAÇÃO DE RISCO E USO ADEQUADO
 
-3.1. O Shield destina-se a atividades de suporte à decisão, podendo ser enquadrado como ferramenta de risco controlado, conforme critérios da Resolução 615/2025.
+3.1. O ShieldJud destina-se a atividades de suporte à decisão, podendo ser enquadrado como ferramenta de risco controlado, conforme critérios da Resolução 615/2025.
 
 3.2. É expressamente vedado:
 
