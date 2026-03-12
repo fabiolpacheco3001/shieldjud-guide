@@ -13,9 +13,9 @@ const versions: DocumentVersion[] = [
 
 const content = `## 1. OBJETO E NATUREZA JURÍDICA
 
-1.1. O presente Termo regula o acesso e utilização do aplicativo Shield – IA Jurídica para Análise Processual, solução tecnológica disponibilizada pela Softplan.
+1.1. O presente Termo regula o acesso e utilização do aplicativo ShieldJud – IA Jurídica para Análise Processual, solução tecnológica disponibilizada pela Softplan.
 
-1.2. O Shield consiste em sistema baseado em técnicas de inteligência artificial destinado a apoio técnico-analítico, com funcionalidades de:
+1.2. O ShieldJud consiste em sistema baseado em técnicas de inteligência artificial destinado a apoio técnico-analítico, com funcionalidades de:
 
 - 1.2.1. leitura estruturada de processos;
 - 1.2.2. análise de admissibilidade;
