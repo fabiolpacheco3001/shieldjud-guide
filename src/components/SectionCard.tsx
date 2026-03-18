@@ -15,6 +15,7 @@ const SectionCard = ({ section, index }: SectionCardProps) => {
 
   return (
     <div
+      data-onboarding={`section-card-${index}`}
       className="section-icon-card flex flex-col items-center text-center"
       style={{ animationDelay: `${index * 0.06}s` }}
       onClick={() => navigate(`/secao/${section.id}`)}

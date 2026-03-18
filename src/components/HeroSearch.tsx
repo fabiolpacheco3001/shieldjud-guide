@@ -22,6 +22,7 @@ const HeroSearch = ({ searchQuery, onSearchChange }: HeroSearchProps) => {
           Como podemos ajudar você hoje?
         </p>
         <div
+          data-onboarding="hero-search"
           className="relative max-w-xl mx-auto animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >

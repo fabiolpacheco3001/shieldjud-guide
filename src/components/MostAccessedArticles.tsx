@@ -14,7 +14,7 @@ const MostAccessedArticles = () => {
   if (articles.length === 0) return null;
 
   return (
-    <div className="w-full py-12 px-4">
+    <div data-onboarding="most-accessed" className="w-full py-12 px-4">
       <div className="container max-w-5xl mx-auto">
         <div className="flex items-center gap-3 mb-8">
           <div className="w-10 h-10 rounded-xl bg-secondary flex items-center justify-center">
