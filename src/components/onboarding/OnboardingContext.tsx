@@ -45,18 +45,21 @@ const defaultChecklist: ChecklistItem[] = [
     id: "search",
     title: "Faça uma pesquisa",
     description: "Use a barra de busca para encontrar um artigo.",
+    completed: false,
     tourId: "search-tour",
   },
   {
     id: "explore-section",
     title: "Explore uma seção",
     description: "Clique em uma das categorias de conteúdo.",
+    completed: false,
     tourId: "section-tour",
   },
   {
     id: "read-article",
     title: "Leia um artigo promovido",
     description: "Confira os artigos em destaque na página inicial.",
+    completed: false,
     tourId: "promoted-tour",
   },
 ];
