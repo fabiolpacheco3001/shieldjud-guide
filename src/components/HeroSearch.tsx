@@ -12,7 +12,7 @@ const HeroSearch = ({ searchQuery, onSearchChange }: HeroSearchProps) => {
       style={{ background: "var(--hero-gradient)" }}
     >
       <div className="container max-w-3xl mx-auto text-center">
-        <h1 className="text-3xl md:text-5xl font-display font-bold text-primary-foreground mb-4 animate-fade-in-up">
+        <h1 data-onboarding="hero-title" className="text-3xl md:text-5xl font-display font-bold text-primary-foreground mb-4 animate-fade-in-up">
           Central de Ajuda
         </h1>
         <p
@@ -22,6 +22,7 @@ const HeroSearch = ({ searchQuery, onSearchChange }: HeroSearchProps) => {
           Como podemos ajudar você hoje?
         </p>
         <div
+          data-onboarding="hero-search"
           className="relative max-w-xl mx-auto animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
