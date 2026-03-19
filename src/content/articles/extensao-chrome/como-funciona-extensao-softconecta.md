@@ -3,6 +3,7 @@ title: Como funciona a extensão SoftConecta
 section: extensao-chrome
 slug: como-funciona-extensao-softconecta
 promoted: true
+order: 2
 keywords: [funcionamento, extensão, softconecta, captura, importar, enviar, abas]
 ---
 

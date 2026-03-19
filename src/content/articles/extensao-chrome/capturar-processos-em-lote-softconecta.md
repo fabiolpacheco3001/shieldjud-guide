@@ -2,6 +2,7 @@
 title: Como capturar processos em lote com a SoftConecta
 section: extensao-chrome
 slug: capturar-processos-em-lote-softconecta
+order: 4
 keywords: [lote, múltiplos, vários processos, batch, softconecta, captura automática]
 ---
 

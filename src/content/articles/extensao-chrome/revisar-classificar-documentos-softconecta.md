@@ -2,6 +2,7 @@
 title: Como revisar e classificar documentos antes do envio
 section: extensao-chrome
 slug: revisar-classificar-documentos-softconecta
+order: 3
 keywords: [revisão, classificação, documentos, tipo, petição, sentença, softconecta]
 ---
 
