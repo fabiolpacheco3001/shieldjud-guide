@@ -151,7 +151,7 @@ Nesta versão do produto, o upload manual foi adotado para garantir:
 
 Isso permite que o sistema funcione em diferentes contextos institucionais sem depender de acessos técnicos aos sistemas judiciais.
 
-> 💡 Dica: para capturar processos diretamente de portais judiciais, confira a [extensão do Chrome](/artigo/instalar-extensao).
+> 💡 Dica: para capturar processos diretamente de portais judiciais, confira a [extensão SoftConecta](/artigo/instalar-extensao-softconecta).
 
 ---
 
