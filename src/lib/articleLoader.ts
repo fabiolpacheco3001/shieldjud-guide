@@ -68,7 +68,9 @@ export function getAllArticles(): Article[] {
 }
 
 export function getArticlesBySection(sectionId: string): Article[] {
-  return getAllArticles().filter((a) => a.section === sectionId);
+  return getAllArticles()
+    .filter((a) => a.section === sectionId)
+    .sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {
