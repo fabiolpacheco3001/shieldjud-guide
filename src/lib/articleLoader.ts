@@ -49,6 +49,7 @@ function parseArticle(raw: string): Article | null {
       content: content.trim(),
       promoted: data.promoted === true,
       keywords: Array.isArray(data.keywords) ? data.keywords : [],
+      order: typeof data.order === 'string' ? parseInt(data.order as string, 10) : undefined,
     };
   } catch {
     return null;
