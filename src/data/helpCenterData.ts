@@ -5,6 +5,7 @@ export interface Article {
   content: string;
   promoted?: boolean;
   keywords?: string[];
+  order?: number;
 }
 
 export interface Section {

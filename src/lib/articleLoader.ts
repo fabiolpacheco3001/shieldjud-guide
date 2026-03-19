@@ -49,6 +49,7 @@ function parseArticle(raw: string): Article | null {
       content: content.trim(),
       promoted: data.promoted === true,
       keywords: Array.isArray(data.keywords) ? data.keywords : [],
+      order: typeof data.order === 'string' ? parseInt(data.order as string, 10) : undefined,
     };
   } catch {
     return null;
@@ -67,7 +68,9 @@ export function getAllArticles(): Article[] {
 }
 
 export function getArticlesBySection(sectionId: string): Article[] {
-  return getAllArticles().filter((a) => a.section === sectionId);
+  return getAllArticles()
+    .filter((a) => a.section === sectionId)
+    .sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
 }
 
 export function getArticleBySlug(slug: string): Article | undefined {
