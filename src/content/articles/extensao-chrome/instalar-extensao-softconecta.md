@@ -3,6 +3,7 @@ title: Como instalar a extensão SoftConecta no Google Chrome
 section: extensao-chrome
 slug: instalar-extensao-softconecta
 promoted: true
+order: 1
 keywords: [instalação, chrome, navegador, extensão, softconecta, google chrome]
 ---
 
@@ -14,7 +15,7 @@ keywords: [instalação, chrome, navegador, extensão, softconecta, google chrom
 ➕ Etapa 2 — Adicionar a extensão ao navegador  
 🧩 Etapa 3 — Confirmar a instalação  
 📌 Etapa 4 — Fixar a extensão no navegador  
-🔐 Segurança e permissões  
+🔐 Segurança e privacidade de dados  
 📚 Próximo passo  
 
 ---
@@ -83,17 +84,23 @@ Após isso, o ícone da SoftConecta ficará sempre visível no navegador.
 
 ---
 
-## 🔐 Segurança e permissões
+## 🔐 Segurança e privacidade de dados
 
-Durante a instalação, o Chrome pode solicitar permissões para a extensão.
+A extensão **SoftConecta foi projetada com foco em segurança e proteção de dados**.
 
-Essas permissões são necessárias para que a SoftConecta consiga:
+Alguns pontos importantes:
 
-- acessar páginas dos sistemas judiciais  
-- identificar documentos do processo  
-- permitir o envio seguro para o ShieldJud  
+- a extensão é distribuída pela **Chrome Web Store**, que realiza verificações de segurança antes de disponibilizar qualquer extensão  
+- não há risco de invasão ou acesso indevido ao seu computador  
+- a extensão atua apenas nos sistemas acessados pelo usuário (como portais de tribunais)  
+- nenhum dado é capturado sem ação explícita do usuário  
 
-A extensão não acessa informações fora do contexto dos sistemas utilizados pelo usuário.
+Além disso:
+
+- todas as operações realizadas pela extensão seguem a **política de segurança e privacidade da Softplan**  
+- o uso da extensão está coberto pelos **termos de uso da plataforma ShieldJud**  
+
+A extensão funciona como uma ponte segura entre o sistema do tribunal e o ShieldJud, sempre sob controle do usuário.
 
 ---
 
