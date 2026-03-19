@@ -36,7 +36,7 @@ Em geral, os documentos enviados incluem:
 
 ### Captura automática por extensão do navegador
 
-O ShieldJud também oferece uma **[extensão do Google Chrome](/artigo/instalar-extensao)** que permite enviar documentos diretamente a partir dos sistemas de gestão processual dos tribunais.
+O ShieldJud também oferece a **[extensão SoftConecta](/artigo/instalar-extensao-softconecta)** que permite enviar documentos diretamente a partir dos sistemas de gestão processual dos tribunais.
 
 Essa extensão pode funcionar em portais como:
 

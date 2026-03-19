@@ -133,7 +133,7 @@ Essa funcionalidade permite que o usuário compreenda rapidamente o contexto do 
 O funcionamento da plataforma segue uma lógica simples.
 
 Primeiro, o usuário envia os documentos do processo para análise.  
-Isso pode ocorrer por meio de upload manual ou pela captura automática de documentos utilizando a [extensão do Chrome](/artigo/instalar-extensao).
+Isso pode ocorrer por meio de upload manual ou pela captura automática de documentos utilizando a [extensão SoftConecta](/artigo/instalar-extensao-softconecta).
 
 Em seguida, o sistema processa os documentos utilizando modelos de inteligência artificial especializados em análise jurídica.
 

@@ -34,7 +34,7 @@ O usuário pode enviar diretamente os documentos do processo em formato PDF, nor
 
 ### Captura automática via extensão do Chrome
 
-O ShieldJud também oferece uma [extensão do navegador](/artigo/instalar-extensao) que permite capturar documentos diretamente dos sistemas processuais dos tribunais.
+O ShieldJud também oferece uma [extensão do navegador (SoftConecta)](/artigo/instalar-extensao-softconecta) que permite capturar documentos diretamente dos sistemas processuais dos tribunais.
 
 Essa extensão pode operar em portais como:
 

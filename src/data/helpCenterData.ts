@@ -31,7 +31,7 @@ export const sections: Section[] = [
   {
     id: "extensao-chrome",
     title: "Extensão do Chrome",
-    description: "Como instalar e usar a extensão para capturar processos de portais judiciais.",
+    description: "Como instalar e usar a extensão SoftConecta para capturar processos de portais judiciais.",
     icon: "Globe",
   },
   {
