@@ -64,7 +64,7 @@ Com a extensão ativa, acesse normalmente um sistema de gestão de processos, co
 - PJe  
 - eproc  
 - Projudi  
-- PDPJ  
+- Jus.br  
 
 Em seguida, abra um processo.
 
