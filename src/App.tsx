@@ -34,6 +34,7 @@ const App = () => (
         </BrowserRouter>
         <TourOverlay />
         <OnboardingChecklist />
+        <SupportButton />
       </OnboardingProvider>
     </TooltipProvider>
   </QueryClientProvider>
