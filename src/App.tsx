@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { OnboardingProvider } from "@/components/onboarding/OnboardingContext";
 import TourOverlay from "@/components/onboarding/TourOverlay";
 import OnboardingChecklist from "@/components/onboarding/OnboardingChecklist";
+import SupportButton from "@/components/SupportButton";
 import Index from "./pages/Index.tsx";
 import SectionPage from "./pages/SectionPage.tsx";
 import ArticlePage from "./pages/ArticlePage.tsx";
