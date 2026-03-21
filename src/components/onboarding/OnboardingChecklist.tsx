@@ -210,7 +210,6 @@ export default function OnboardingChecklist() {
             </>
           )}
         </div>
-        </div>
       )}
     </>
   );
