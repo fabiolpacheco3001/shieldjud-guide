@@ -1,7 +1,9 @@
+import { useState } from "react";
 import { useOnboarding, Tour } from "./OnboardingContext";
-import { CheckCircle2, Circle, Play, RotateCcw, X, Rocket, ChevronDown } from "lucide-react";
+import { CheckCircle2, Circle, Play, RotateCcw, X, Rocket, ChevronDown, MessageCircleWarning, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
+import SupportForm from "@/components/SupportForm";
 
 const tours: Record<string, Tour> = {
   "search-tour": {
