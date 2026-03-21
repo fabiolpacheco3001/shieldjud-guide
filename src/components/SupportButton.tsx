@@ -49,7 +49,7 @@ const SupportButton = () => {
       <DialogTrigger asChild>
         <Button
           size="icon"
-          className="fixed bottom-6 right-6 z-50 h-14 w-14 rounded-full shadow-lg bg-primary text-primary-foreground hover:bg-accent transition-colors"
+          className="fixed bottom-6 left-6 z-50 h-14 w-14 rounded-full shadow-lg bg-destructive text-destructive-foreground hover:bg-destructive/90 transition-colors"
           aria-label="Reportar problema"
         >
           <MessageCircleWarning size={24} />
