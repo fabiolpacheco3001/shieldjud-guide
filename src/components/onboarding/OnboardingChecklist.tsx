@@ -70,6 +70,7 @@ const tours: Record<string, Tour> = {
 
 export default function OnboardingChecklist() {
   const { checklistOpen, setChecklistOpen, checklistItems, startTour, resetChecklist } = useOnboarding();
+  const [showSupport, setShowSupport] = useState(false);
 
   const completedCount = checklistItems.filter((i) => i.completed).length;
   const progress = (completedCount / checklistItems.length) * 100;
