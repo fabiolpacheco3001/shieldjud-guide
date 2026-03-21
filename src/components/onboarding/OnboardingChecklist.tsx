@@ -201,10 +201,10 @@ export default function OnboardingChecklist() {
                 )}
                 <button
                   onClick={() => setShowSupport(true)}
-                  className="w-full mt-2 flex items-center justify-center gap-2 py-2 rounded-lg text-xs text-muted-foreground hover:text-destructive hover:bg-destructive/5 transition-colors"
+                  className="w-full mt-3 flex items-center justify-center gap-2.5 py-3 px-4 rounded-xl text-sm font-medium bg-destructive/10 text-destructive hover:bg-destructive/20 border border-destructive/20 transition-all"
                 >
-                  <MessageCircleWarning size={14} />
-                  Reportar um problema
+                  <AlertTriangle size={18} className="shrink-0" />
+                  Encontrou um problema? Fale conosco!
                 </button>
               </div>
             </>
