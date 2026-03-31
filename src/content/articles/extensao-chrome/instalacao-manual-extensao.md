@@ -1,5 +1,5 @@
 ---
-title: Como instalar a extensão SoftConecta manualmente (versão de testes)
+title: Como instalar a extensão SoftConecta manualmente (versão beta)
 section: extensao-chrome
 slug: instalacao-manual-extensao
 promoted: true
