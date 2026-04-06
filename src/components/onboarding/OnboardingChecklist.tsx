@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useOnboarding, Tour } from "./OnboardingContext";
 import { CheckCircle2, Circle, Play, RotateCcw, X, Rocket, ChevronDown, MessageCircleWarning, ArrowLeft, AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -70,6 +71,7 @@ const tours: Record<string, Tour> = {
 
 export default function OnboardingChecklist() {
   const { checklistOpen, setChecklistOpen, checklistItems, startTour, resetChecklist } = useOnboarding();
+  const navigate = useNavigate();
   const [showSupport, setShowSupport] = useState(false);
 
   const completedCount = checklistItems.filter((i) => i.completed).length;
@@ -174,7 +176,7 @@ export default function OnboardingChecklist() {
                         variant="ghost"
                         size="sm"
                         className="h-7 text-xs text-primary hover:text-primary-foreground hover:bg-primary shrink-0"
-                        onClick={() => startTour(tours[item.tourId!])}
+                        onClick={() => startTour(tours[item.tourId!], navigate)}
                       >
                         <Play size={12} />
                         Iniciar

@@ -30,9 +30,9 @@ const App = () => (
             <Route path="/politica-de-privacidade" element={<PoliticaDePrivacidade />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <TourOverlay />
+          <OnboardingChecklist />
         </BrowserRouter>
-        <TourOverlay />
-        <OnboardingChecklist />
       </OnboardingProvider>
     </TooltipProvider>
   </QueryClientProvider>

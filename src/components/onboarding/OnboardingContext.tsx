@@ -32,7 +32,7 @@ interface OnboardingState {
   // Tour
   activeTour: Tour | null;
   currentStepIndex: number;
-  startTour: (tour: Tour) => void;
+  startTour: (tour: Tour, navigate?: (path: string) => void) => void;
   nextStep: () => void;
   prevStep: () => void;
   endTour: () => void;
@@ -80,10 +80,17 @@ export function OnboardingProvider({ children }: { children: React.ReactNode }) 
     setChecklistItems(defaultChecklist);
   }, []);
 
-  const startTour = useCallback((tour: Tour) => {
-    setActiveTour(tour);
-    setCurrentStepIndex(0);
-    setChecklistOpen(false);
+  const startTour = useCallback((tour: Tour, navigate?: (path: string) => void) => {
+    // Always navigate to home page first since tour targets are only there
+    if (navigate) {
+      navigate("/");
+    }
+    // Small delay to let the page render before starting tour
+    setTimeout(() => {
+      setActiveTour(tour);
+      setCurrentStepIndex(0);
+      setChecklistOpen(false);
+    }, 300);
   }, []);
 
   const nextStep = useCallback(() => {
