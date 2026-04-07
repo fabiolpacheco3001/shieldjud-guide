@@ -42,7 +42,7 @@ Após instalada, a extensão passa a aparecer no navegador e pode ser utilizada 
 
 Para iniciar a instalação, acesse o link da extensão SoftConecta:
 
-👉 [link a ser atualizado]
+👉 [Acessar a extensão SoftConecta na Chrome Web Store](https://chromewebstore.google.com/detail/softconecta/kfdeeimpnifodbddlfnokjgceggmeahf)
 
 Ao abrir o link, você verá a página da extensão no Chrome.
 
