@@ -180,6 +180,21 @@ const ArticlePage = () => {
         );
       }
 
+      // Image: ![alt](url)
+      const imgMatch = line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+      if (imgMatch) {
+        return (
+          <div key={i} className="my-4 flex justify-center">
+            <img
+              src={imgMatch[2]}
+              alt={imgMatch[1]}
+              className="rounded-xl border border-border shadow-sm max-w-xs w-full"
+              loading="lazy"
+            />
+          </div>
+        );
+      }
+
       if (/^\d+\.\s/.test(line)) {
         const text = line.replace(/^\d+\.\s/, "");
         return (
