@@ -1,10 +1,10 @@
 ---
-title: Como instalar e usar a extensão SoftConecta no Google Chrome
+title: Como instalar e usar a extensão SoftConecta no Google Chrome ou Microsoft Edge
 section: extensao-chrome
 slug: instalar-extensao-softconecta
 promoted: true
 order: 1
-keywords: [instalação, chrome, navegador, extensão, softconecta, google chrome, captura, importar, documentos]
+keywords: [instalação, chrome, edge, navegador, extensão, softconecta, google chrome, microsoft edge, captura, importar, documentos]
 ---
 
 ## Neste artigo
@@ -27,6 +27,8 @@ keywords: [instalação, chrome, navegador, extensão, softconecta, google chrom
 
 A extensão **SoftConecta** permite capturar documentos de processos judiciais diretamente dos sistemas dos tribunais e enviá-los para análise no **ShieldJud**, sem precisar fazer download manual de arquivos.
 
+A extensão é compatível com o **Google Chrome** e o **Microsoft Edge**, pois ambos são baseados no Chromium e suportam extensões da Chrome Web Store.
+
 Este artigo apresenta o passo a passo completo: da instalação até o envio dos documentos para análise.
 
 ---
@@ -37,7 +39,9 @@ Acesse o link abaixo para abrir a página oficial da extensão:
 
 👉 [Acessar a extensão SoftConecta na Chrome Web Store](https://chromewebstore.google.com/detail/softconecta/kfdeeimpnifodbddlfnokjgceggmeahf?hl=pt-BR)
 
-Na página da extensão, clique em **"Usar no Chrome"** (ou **"Adicionar ao Chrome"**).
+> 💡 Dica: O link acima funciona tanto no **Google Chrome** quanto no **Microsoft Edge**. No Edge, o navegador pode solicitar permissão para instalar extensões da Chrome Web Store — basta autorizar.
+
+Na página da extensão, clique em **"Usar no Chrome"** (ou **"Adicionar ao Chrome"** / **"Obter"**, dependendo do navegador).
 
 O navegador exibirá uma mensagem de confirmação. Clique em **"Adicionar extensão"**.
 
@@ -49,7 +53,7 @@ A instalação será feita automaticamente em poucos segundos.
 
 Após a instalação, recomendamos fixar a extensão para facilitar o acesso:
 
-1. Clique no ícone de extensões (🧩) no canto superior direito do Chrome  
+1. Clique no ícone de extensões (🧩) no canto superior direito do navegador (Chrome ou Edge)  
 2. Localize a extensão **SoftConecta**  
 3. Clique no ícone de **fixar (📌)** ao lado da extensão  
 
@@ -72,7 +76,7 @@ Com a extensão ativa e o login realizado, acesse normalmente um dos sistemas co
 - e-SAJ  
 - Eproc  
 - PJe  
-- PDPJ  
+- Jus.br  
 - Projudi  
 
 A extensão ficará aguardando você acessar um processo em uma dessas plataformas.
